@@ -1,0 +1,31 @@
+- generic [ref=e3]:
+  - button "☀️" [ref=e4] [cursor=pointer]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: JS
+        - generic [ref=e9]: Mastery Hub
+      - paragraph [ref=e10]: Welcome back! Continue your JavaScript journey.
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - button "Login" [ref=e13] [cursor=pointer]
+        - button "Register" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: Email
+          - textbox "you@example.com" [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Password
+          - textbox "Enter your password" [ref=e21]
+        - button "Sign In" [ref=e22] [cursor=pointer]
+      - paragraph [ref=e23]: "Demo: Register a new account to get started"
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: "28"
+        - generic [ref=e27]: Topics
+      - generic [ref=e28]:
+        - generic [ref=e29]: "15"
+        - generic [ref=e30]: Interviews
+      - generic [ref=e31]:
+        - generic [ref=e32]: 100+
+        - generic [ref=e33]: Examples
