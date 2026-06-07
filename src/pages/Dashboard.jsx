@@ -1,22 +1,31 @@
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useProgress } from '../context/ProgressContext';
+import { useLanguage } from '../context/LanguageContext';
 import curriculum from '../data/curriculum';
 
 export default function Dashboard() {
   const { user } = useAuth();
   const { progress } = useProgress();
+  const { selectedLanguage } = useLanguage();
 
+  // Filter curriculum by selected language
+  const filteredCurriculum = curriculum.filter(t => t.language === selectedLanguage);
+  
   const completedCount = progress.completedTopics.length;
-  const totalTopics = curriculum.length;
+  const totalTopics = filteredCurriculum.length;
   const percent = Math.round((completedCount / totalTopics) * 100);
-  const modules = [...new Set(curriculum.map(t => t.module))];
+  const modules = [...new Set(filteredCurriculum.map(t => t.module))];
 
-  // Find next topic to study
-  const nextTopic = curriculum.find(t => !progress.completedTopics.includes(t.id));
+  // Find next topic to study (from filtered curriculum)
+  const nextTopic = filteredCurriculum.find(t => !progress.completedTopics.includes(t.id));
 
-  // Recent activity
-  const recentTopics = progress.completedTopics.slice(-5).reverse().map(id => curriculum.find(t => t.id === id)).filter(Boolean);
+  // Recent activity (only from selected language)
+  const recentTopics = progress.completedTopics
+    .slice(-5)
+    .reverse()
+    .map(id => curriculum.find(t => t.id === id))
+    .filter(t => t && t.language === selectedLanguage);
 
   // Quiz stats
   const quizEntries = Object.entries(progress.quizScores);
@@ -126,7 +135,7 @@ export default function Dashboard() {
         }}>
           <h3 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>Module Progress</h3>
           {modules.map(mod => {
-            const topics = curriculum.filter(t => t.module === mod);
+            const topics = filteredCurriculum.filter(t => t.module === mod);
             const done = topics.filter(t => progress.completedTopics.includes(t.id)).length;
             const pct = Math.round((done / topics.length) * 100);
             return (

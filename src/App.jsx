@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ProgressProvider } from './context/ProgressContext';
 import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 import Layout from './components/Layout';
 import LoginPage from './pages/LoginPage';
 import Dashboard from './pages/Dashboard';
@@ -62,7 +63,9 @@ export default function App() {
       <ThemeProvider>
         <AuthProvider>
           <ProgressProvider>
-            <AppRoutes />
+            <LanguageProvider>
+              <AppRoutes />
+            </LanguageProvider>
           </ProgressProvider>
         </AuthProvider>
       </ThemeProvider>

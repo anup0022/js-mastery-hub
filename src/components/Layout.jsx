@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useProgress } from '../context/ProgressContext';
 import { useTheme } from '../context/ThemeContext';
+import { useLanguage } from '../context/LanguageContext';
 import curriculum from '../data/curriculum';
 
 const navItems = [
@@ -20,11 +21,11 @@ export default function Layout({ children }) {
   const { user, logout } = useAuth();
   const { progress } = useProgress();
   const { theme, toggleTheme } = useTheme();
+  const { selectedLanguage, setSelectedLanguage } = useLanguage();
   const location = useLocation();
   const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [expandedModule, setExpandedModule] = useState(null);
-  const [selectedLanguage, setSelectedLanguage] = useState('javascript');
 
   // Filter curriculum by language
   const filteredCurriculum = curriculum.filter(t => t.language === selectedLanguage);
