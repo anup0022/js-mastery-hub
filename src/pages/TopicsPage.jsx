@@ -8,15 +8,18 @@ export default function TopicsPage() {
   const [search, setSearch] = useState('');
   const [filterModule, setFilterModule] = useState('all');
   const [filterDifficulty, setFilterDifficulty] = useState('all');
+  const [filterLanguage, setFilterLanguage] = useState('all');
 
   const modules = ['all', ...new Set(curriculum.map(t => t.module))];
   const difficulties = ['all', 'beginner', 'intermediate', 'advanced'];
+  const languages = ['all', 'JavaScript', 'Python'];
 
   const filtered = curriculum.filter(topic => {
     const matchSearch = topic.title.toLowerCase().includes(search.toLowerCase()) || topic.description.toLowerCase().includes(search.toLowerCase());
     const matchModule = filterModule === 'all' || topic.module === filterModule;
     const matchDiff = filterDifficulty === 'all' || topic.difficulty === filterDifficulty;
-    return matchSearch && matchModule && matchDiff;
+    const matchLanguage = filterLanguage === 'all' || topic.language === filterLanguage.toLowerCase();
+    return matchSearch && matchModule && matchDiff && matchLanguage;
   });
 
   const difficultyColor = {
@@ -29,10 +32,10 @@ export default function TopicsPage() {
     <div style={{ animation: 'fadeIn 0.5s ease forwards' }}>
       <div style={{ marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '1.5rem', fontWeight: '800', marginBottom: '0.5rem' }}>
-          JavaScript Topics
+          All Topics
         </h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-          {curriculum.length} topics covering everything from basics to advanced patterns
+          {curriculum.length} topics covering JavaScript and Python from basics to advanced
         </p>
       </div>
 
@@ -88,6 +91,20 @@ export default function TopicsPage() {
           }}
         >
           {difficulties.map(d => <option key={d} value={d}>{d === 'all' ? 'All Levels' : d.charAt(0).toUpperCase() + d.slice(1)}</option>)}
+        </select>
+        <select
+          value={filterLanguage}
+          onChange={e => setFilterLanguage(e.target.value)}
+          style={{
+            padding: '10px 14px',
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border)',
+            borderRadius: 'var(--radius-sm)',
+            color: 'var(--text-primary)',
+            fontSize: '0.85rem',
+          }}
+        >
+          {languages.map(lang => <option key={lang} value={lang}>{lang === 'all' ? 'All Languages' : lang}</option>)}
         </select>
       </div>
 

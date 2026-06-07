@@ -5,6 +5,7 @@ const curriculum = [
   // ============ MODULE 1: BASICS ============
   {
     id: 1,
+    language: "javascript",
     module: "Getting Started",
     title: "Introduction to JavaScript",
     difficulty: "beginner",
@@ -72,6 +73,7 @@ console.log("Hello" + " " + "World");`,
   },
   {
     id: 2,
+    language: "javascript",
     module: "Getting Started",
     title: "Variables — var, let, const",
     difficulty: "beginner",
@@ -165,6 +167,7 @@ let b = 10;`,
   },
   {
     id: 3,
+    language: "javascript",
     module: "Getting Started",
     title: "Data Types in JavaScript",
     difficulty: "beginner",
@@ -280,6 +283,7 @@ console.log("" === false);  // false`,
   },
   {
     id: 4,
+    language: "javascript",
     module: "Getting Started",
     title: "Operators in JavaScript",
     difficulty: "beginner",
@@ -351,6 +355,7 @@ console.log(obj?.c?.d);    // undefined (no error!)`,
   },
   {
     id: 5,
+    language: "javascript",
     module: "Control Flow",
     title: "Conditionals — if, else, switch",
     difficulty: "beginner",
@@ -424,6 +429,7 @@ if (age >= 18) {
   },
   {
     id: 6,
+    language: "javascript",
     module: "Control Flow",
     title: "Loops — for, while, do-while",
     difficulty: "beginner",
@@ -493,6 +499,7 @@ for (let i = 0; i < 10; i++) {
   },
   {
     id: 7,
+    language: "javascript",
     module: "Functions",
     title: "Functions — Declaration, Expression, Arrow",
     difficulty: "beginner",
@@ -590,6 +597,7 @@ console.log(triple(5));  // 15`,
   },
   {
     id: 8,
+    language: "javascript",
     module: "Functions",
     title: "Scope and Closures",
     difficulty: "intermediate",
@@ -668,6 +676,7 @@ for (let j = 0; j < 3; j++) {
   },
   {
     id: 9,
+    language: "javascript",
     module: "Data Structures",
     title: "Strings and String Methods",
     difficulty: "beginner",
@@ -741,6 +750,7 @@ console.log(\`2 + 3 = \${2 + 3}\`); // "2 + 3 = 5"`,
   },
   {
     id: 10,
+    language: "javascript",
     module: "Data Structures",
     title: "Arrays and Array Methods",
     difficulty: "beginner",
@@ -816,6 +826,7 @@ console.log(result); // 90`,
   },
   {
     id: 11,
+    language: "javascript",
     module: "Data Structures",
     title: "Objects and Object Methods",
     difficulty: "intermediate",
@@ -902,6 +913,7 @@ console.log(user?.profile?.avatar); // undefined (no error)`,
   },
   {
     id: 12,
+    language: "javascript",
     module: "Advanced Concepts",
     title: "The 'this' Keyword",
     difficulty: "intermediate",
@@ -978,6 +990,7 @@ console.log(dog.speak()); // "Rex makes a sound"`,
   },
   {
     id: 13,
+    language: "javascript",
     module: "Advanced Concepts",
     title: "Prototypes and Inheritance",
     difficulty: "intermediate",
@@ -1040,6 +1053,7 @@ console.log(dev.hasOwnProperty("greet")); // false (on prototype)`,
   },
   {
     id: 14,
+    language: "javascript",
     module: "Advanced Concepts",
     title: "Classes (ES6)",
     difficulty: "intermediate",
@@ -1123,6 +1137,7 @@ console.log(cat.speak()); // "Whiskers: Meow!"`,
   },
   {
     id: 15,
+    language: "javascript",
     module: "Async JavaScript",
     title: "Asynchronous JavaScript — Callbacks",
     difficulty: "intermediate",
@@ -1200,6 +1215,7 @@ step1(() => {
   },
   {
     id: 16,
+    language: "javascript",
     module: "Async JavaScript",
     title: "Promises",
     difficulty: "intermediate",
@@ -1284,6 +1300,7 @@ Promise.race([
   },
   {
     id: 17,
+    language: "javascript",
     module: "Async JavaScript",
     title: "Async/Await",
     difficulty: "intermediate",
@@ -1365,6 +1382,7 @@ async function robustFetch(url) {
   },
   {
     id: 18,
+    language: "javascript",
     module: "DOM & Events",
     title: "DOM Manipulation",
     difficulty: "intermediate",
@@ -1443,6 +1461,7 @@ const clone = title.cloneNode(true); // true = deep clone`,
   },
   {
     id: 19,
+    language: "javascript",
     module: "DOM & Events",
     title: "Events and Event Handling",
     difficulty: "intermediate",
@@ -1518,6 +1537,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
   },
   {
     id: 20,
+    language: "javascript",
     module: "Modern JavaScript",
     title: "ES6+ Features",
     difficulty: "intermediate",
@@ -1607,6 +1627,7 @@ console.log(Object.keys(user)); // ["name"] - symbol hidden!`,
   },
   {
     id: 21,
+    language: "javascript",
     module: "Modern JavaScript",
     title: "Error Handling",
     difficulty: "intermediate",
@@ -1695,6 +1716,7 @@ async function fetchSafe(url) {
   },
   {
     id: 22,
+    language: "javascript",
     module: "Modern JavaScript",
     title: "Local Storage & JSON",
     difficulty: "beginner",
@@ -1765,6 +1787,7 @@ for (let i = 0; i < localStorage.length; i++) {
   },
   {
     id: 23,
+    language: "javascript",
     module: "Advanced Patterns",
     title: "Destructuring and Spread Advanced",
     difficulty: "intermediate",
@@ -1829,6 +1852,7 @@ const copy = [...numbers].sort((a, b) => a - b);`,
   },
   {
     id: 24,
+    language: "javascript",
     module: "Advanced Patterns",
     title: "Regular Expressions (RegEx)",
     difficulty: "advanced",
@@ -1895,6 +1919,7 @@ console.log(groups.year); // "2024"`,
   },
   {
     id: 25,
+    language: "javascript",
     module: "Advanced Patterns",
     title: "Fetch API and HTTP Requests",
     difficulty: "intermediate",
@@ -1977,6 +2002,7 @@ async function safeFetch(url) {
   },
   {
     id: 26,
+    language: "javascript",
     module: "Pro Level",
     title: "Design Patterns in JavaScript",
     difficulty: "advanced",
@@ -2081,6 +2107,7 @@ console.log(Calculator.getHistory()); // [5]`,
   },
   {
     id: 27,
+    language: "javascript",
     module: "Pro Level",
     title: "Functional Programming in JavaScript",
     difficulty: "advanced",
@@ -2165,6 +2192,7 @@ console.log(getActiveAdultNames(users)); // ["Anup", "Charlie"]`,
   },
   {
     id: 28,
+    language: "javascript",
     module: "Pro Level",
     title: "Performance and Optimization",
     difficulty: "advanced",
@@ -2254,6 +2282,2869 @@ document.body.appendChild(fragment); // Single reflow`,
     interviewQuestions: [
       { q: "Explain the difference between debounce and throttle", a: "Debounce delays execution until the action STOPS for a specified time (e.g., search input — wait until user stops typing). Throttle limits execution to at most once per interval (e.g., scroll handler — execute every 200ms max). Debounce is for 'when done', throttle is for 'not too often'." },
       { q: "Implement a memoize function", a: "A memoize function wraps another function, caches results using a Map with serialized arguments as keys. On subsequent calls with same args, it returns the cached result instead of recomputing. Key considerations: cache invalidation strategy, memory limits, and handling of complex argument types." }
+    ]
+  }
+,
+  // ============ PYTHON BASICS ============
+  {
+    id: 29,
+    language: "python",
+    module: "Python Basics",
+    title: "Introduction to Python",
+    difficulty: "beginner",
+    description: "What is Python, its history, philosophy, and setting up your first program.",
+    videoId: "gfDE2a7MKjA",
+    videoTitle: "Introduction to Python | Python Tutorial",
+    content: `Python is one of the world's most popular programming languages. Created by Guido van Rossum in 1991.
+
+**What is Python?**
+- High-level, interpreted, general-purpose language
+- Clean, readable syntax resembling plain English
+- Dynamically typed and garbage-collected
+- Supports OOP, procedural, and functional programming
+
+**Why Python?**
+- #1 for Data Science, ML, and AI
+- Web development (Django, Flask), automation, scripting
+- "Batteries included" — huge standard library
+- 500,000+ packages on PyPI
+- Beginner-friendly
+
+**The Zen of Python**
+- Beautiful is better than ugly
+- Simple is better than complex
+- Readability counts
+
+**Setting Up**
+1. Download from python.org (3.x)
+2. Install IDE: VS Code, PyCharm, IDLE
+3. Verify: python --version
+4. Write hello.py and run: python hello.py`,
+    codeExamples: [
+      {
+        title: "Your First Python Program",
+        code: `# Comment in Python
+print("Hello, World!")
+print("Welcome to Python!")
+
+# Arithmetic
+print(2 + 3)      # 5
+print(10 * 5)     # 50
+print(17 / 3)     # 5.666...
+print(17 // 3)    # 5 (integer division)
+print(2 ** 10)    # 1024 (power)`,
+        explanation: "print() outputs to console. // is integer division, ** is exponentiation."
+      },
+      {
+        title: "Python Interactive Shell",
+        code: `>>> 2 + 2
+4
+>>> "Hello" + " Python"
+'Hello Python'
+>>> type(42)
+<class 'int'>
+>>> type(3.14)
+<class 'float'>`,
+        explanation: "Use python3 to start the REPL. type() checks any value's type."
+      }
+    ],
+    quiz: [
+      { question: "Who created Python?", options: ["Guido van Rossum", "Brendan Eich", "Linus Torvalds", "James Gosling"], answer: 0 },
+      { question: "Which operator is exponentiation?", options: ["^", "**", "pow", "exp"], answer: 1 },
+      { question: "What does // do?", options: ["Comment", "Integer division", "Concat", "Modulo"], answer: 1 },
+      { question: "Python files use which extension?", options: [".pyt", ".py", ".python", ".pt"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "What is Python and its key features?", a: "Python is a high-level, interpreted, dynamically-typed language created by Guido van Rossum (1991). Features: readable syntax, extensive standard library, multiple paradigms (OOP/functional/procedural), dynamic typing, automatic memory management, cross-platform. Excels in data science, web dev, automation, AI/ML." },
+      { q: "Python 2 vs Python 3?", a: "Python 3 (2008+) has breaking changes: print is function not statement, / returns float, strings are Unicode by default, range() returns iterator. Python 2 EOL was January 2020. Always use Python 3." }
+    ]
+  },
+  {
+    id: 30,
+    language: "python",
+    module: "Python Basics",
+    title: "Variables & Data Types",
+    difficulty: "beginner",
+    description: "Built-in types, dynamic typing, type conversion, and naming rules.",
+    videoId: "7NULLPQdVXk",
+    videoTitle: "Variables and Data Types | Python Tutorial",
+    content: `Variables are created by assignment — no declaration needed. Python is dynamically typed.
+
+**Basic Types**
+- int: 42, -7, 1_000_000
+- float: 3.14, -0.5, 1.0e10
+- str: "hello", 'world', triple quotes for multiline
+- bool: True, False
+- None: null value
+
+**Collections**
+- list: [1, 2, 3] — ordered, mutable
+- tuple: (1, 2, 3) — ordered, immutable
+- dict: {"name": "Alice"} — key-value
+- set: {1, 2, 3} — unique, unordered
+
+**Type Conversion**
+- int("42") → 42
+- float(7) → 7.0
+- str(100) → "100"
+- bool(0) → False, bool(1) → True
+
+**Naming Rules**
+- Use snake_case
+- Start with letter or _
+- Cannot use reserved keywords`,
+    codeExamples: [
+      {
+        title: "Variables and Types",
+        code: `name = "Alice"
+age = 25
+height = 5.6
+is_student = True
+
+print(type(name))       # <class 'str'>
+print(type(age))        # <class 'int'>
+print(type(height))     # <class 'float'>
+
+# Multiple assignment
+x, y, z = 10, 20, 30
+a = b = c = 0`,
+        explanation: "Python infers types automatically. Variables can be reassigned to different types."
+      },
+      {
+        title: "Type Conversion",
+        code: `num = int("42")      # "42" -> 42
+pi = float("3.14")   # "3.14" -> 3.14
+age_str = str(25)    # 25 -> "25"
+
+# Truthy/Falsy
+print(bool(0))       # False
+print(bool(""))      # False
+print(bool(None))    # False
+print(bool([]))      # False
+print(bool(1))       # True`,
+        explanation: "0, empty string, None, empty collections are falsy."
+      }
+    ],
+    quiz: [
+      { question: "Output of type(3.14)?", options: ["<class 'int'>", "<class 'float'>", "<class 'double'>", "<class 'num'>"], answer: 1 },
+      { question: "What is None?", options: ["Zero", "Empty string", "Null/absence", "False"], answer: 2 },
+      { question: "Valid variable name?", options: ["2name", "my-var", "my_var", "class"], answer: 2 },
+      { question: "bool('')?", options: ["True", "False", "None", "Error"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Is Python statically or dynamically typed?", a: "Dynamically typed — types determined at runtime. No explicit type declarations. Python 3.5+ supports optional type hints (typing module) for tooling. Python is strongly typed — won't auto-coerce types ('3' + 3 raises TypeError)." },
+      { q: "Mutable vs immutable types?", a: "Immutable (can't change): int, float, str, tuple, frozenset, bool, None. Mutable (can modify): list, dict, set, bytearray. Matters for function args — lists can be modified in-place, ints create new binding." }
+    ]
+  }
+
+  ,
+  // Python Basics - continued
+  {
+    id: 31,
+    language: "python",
+    module: "Python Basics",
+    title: "Strings in Python",
+    difficulty: "beginner",
+    description: "String operations, methods, slicing, and f-string formatting.",
+    videoId: "Yafji9PB1lM",
+    videoTitle: "Strings in Python | Python Tutorial",
+    content: `Strings are immutable sequences of Unicode characters.
+
+**Creating Strings**
+- 'single', "double", triple quotes for multiline
+- Raw strings: r"C:\\path"
+
+**Indexing & Slicing**
+- s[0] first, s[-1] last
+- s[1:4], s[:3], s[-3:], s[::-1] reverse
+
+**Key Methods**
+- upper(), lower(), title(), strip()
+- split(), join(), replace()
+- find(), startswith(), endswith()
+
+**f-strings (Python 3.6+)**
+- f"Hello {name}" — recommended
+- f"{value:.2f}" for formatting`,
+    codeExamples: [
+      { title: "Slicing", code: `text = "Python"
+print(text[0:3])    # "Pyt"
+print(text[::-1])   # "nohtyP"`, explanation: "[::-1] reverses the string" },
+      { title: "f-strings", code: `name = "Alice"
+age = 30
+print(f"{name} is {age} years old")
+print(f"Pi: {3.14159:.2f}")`, explanation: "f-strings allow expressions inside {}" }
+    ],
+    quiz: [
+      { question: "'hello'[::-1] returns?", options: ["hello", "olleh", "helo", "Error"], answer: 1 },
+      { question: "Remove whitespace method?", options: ["trim()", "strip()", "clean()", "cut()"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Why are strings immutable?", a: "Immutability ensures thread safety, allows strings as dict keys/set elements, and enables memory optimization via interning. Modifications create new string objects." }
+    ]
+  },
+  {
+    id: 32,
+    language: "python",
+    module: "Python Basics",
+    title: "Lists",
+    difficulty: "beginner",
+    description: "Creating, indexing, slicing, and essential list methods.",
+    videoId: "a_Bz5ciBHQ0",
+    videoTitle: "Lists in Python | Python Tutorial",
+    content: `Lists are ordered, mutable sequences.
+
+**Creating Lists**
+- [1, 2, 3], ["a", "b"], mixed types, nested lists
+
+**Methods**
+- append(x), extend([x,y]), insert(i, x)
+- remove(x), pop(i), clear()
+- sort(), reverse(), copy()
+
+**List Comprehensions**
+- [x**2 for x in range(10)]
+- [x for x in nums if x > 0]`,
+    codeExamples: [
+      { title: "List Basics", code: `nums = [3, 1, 4, 1, 5]
+nums.append(9)
+nums.sort()
+print(nums)  # [1, 1, 3, 4, 5, 9]`, explanation: "append adds one item, sort modifies in-place" },
+      { title: "List Comprehension", code: `squares = [x**2 for x in range(10)]
+evens = [x for x in range(20) if x % 2 == 0]`, explanation: "Powerful one-liner to create lists" }
+    ],
+    quiz: [
+      { question: "pop() default removes?", options: ["First", "Last", "All", "Random"], answer: 1 },
+      { question: "append vs extend?", options: ["Same", "append=one, extend=many", "extend is faster", "No difference"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "List vs tuple?", a: "Lists are mutable, tuples immutable. Lists [], tuples (). Tuples faster, can be dict keys. Lists for changing data, tuples for fixed records." }
+    ]
+  },
+  {
+    id: 33,
+    language: "python",
+    module: "Python Basics",
+    title: "Dictionaries",
+    difficulty: "beginner",
+    description: "Key-value pairs, dict methods, and dict comprehensions.",
+    videoId: "daefaLgNkw0",
+    videoTitle: "Dictionaries in Python | Python Tutorial",
+    content: `Dictionaries are hash maps with O(1) lookup.
+
+**Creating**
+- {"name": "Alice", "age": 25}
+- dict(name="Alice")
+
+**Access**
+- dict["key"] or dict.get("key")
+
+**Methods**
+- keys(), values(), items()
+- update(other), pop(key)
+- setdefault(key, default)
+
+**Dict Comprehensions**
+- {k: v for k, v in items}`,
+    codeExamples: [
+      { title: "Dict CRUD", code: `person = {"name": "Alice"}
+person["age"] = 25
+print(person.get("email", "N/A"))
+del person["age"]`, explanation: ".get() avoids KeyError" },
+      { title: "Dict Comprehension", code: `squares = {x: x**2 for x in range(6)}
+inverted = {v: k for k, v in original.items()}`, explanation: "Concise dict creation" }
+    ],
+    quiz: [
+      { question: "dict.get missing key returns?", options: ["Error", "None", "0", "False"], answer: 1 },
+      { question: "Can list be dict key?", options: ["Yes", "No", "Only empty", "Only string lists"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "How do dicts work internally?", a: "Hash tables. hash(key) computes integer hash → bucket lookup. O(1) average. Keys must be hashable (immutable). Since Python 3.7, dicts maintain insertion order." }
+    ]
+  },
+  {
+    id: 34,
+    language: "python",
+    module: "Python Basics",
+    title: "Control Flow",
+    difficulty: "beginner",
+    description: "if/elif/else, conditional expressions, and match-case.",
+    videoId: "s5Lu4QTjeL0",
+    videoTitle: "Control Flow - if elif else | Python Tutorial",
+    content: `Control flow with Python's mandatory indentation.
+
+**if/elif/else**
+- Indentation defines blocks (4 spaces)
+- elif for multiple conditions
+- else for default
+
+**Ternary**
+- value_if_true if condition else value_if_false
+
+**match-case (Python 3.10+)**
+- Pattern matching
+- case _: for default`,
+    codeExamples: [
+      { title: "if/elif/else", code: `score = 85
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+else:
+    grade = "C"`, explanation: "Indentation is mandatory, not braces" },
+      { title: "Ternary", code: `x = 10
+result = "even" if x % 2 == 0 else "odd"`, explanation: "Concise conditional" }
+    ],
+    quiz: [
+      { question: "Python uses what for blocks?", options: ["{}", "begin/end", "Indentation", "parentheses"], answer: 2 },
+      { question: "Which is falsy?", options: ["'0'", "1", "[]", "[0]"], answer: 2 }
+    ],
+    interviewQuestions: [
+      { q: "EAFP vs LBYL?", a: "LBYL (Look Before Leap): if key in dict then use. EAFP (Easier Ask Forgiveness): try/except. Python prefers EAFP — more Pythonic, handles race conditions better." }
+    ]
+  },
+  {
+    id: 35,
+    language: "python",
+    module: "Python Basics",
+    title: "Loops",
+    difficulty: "beginner",
+    description: "for, while, break, continue, else clause, range(), enumerate(), zip().",
+    videoId: "XKyyM1VWtUE",
+    videoTitle: "Loops in Python | for while | Python Tutorial",
+    content: `for and while loops with Python enhancements.
+
+**for Loop**
+- for item in iterable
+- range(start, stop, step)
+- enumerate() for index+value
+- zip() for parallel iteration
+
+**while Loop**
+- while condition
+
+**Control**
+- break, continue
+- else clause (runs if no break)`,
+    codeExamples: [
+      { title: "for with enumerate", code: `fruits = ["apple", "banana"]
+for i, fruit in enumerate(fruits):
+    print(f"{i}: {fruit}")`, explanation: "enumerate gives index and value" },
+      { title: "Loop else", code: `for n in range(2, 10):
+    for x in range(2, n):
+        if n % x == 0:
+            break
+    else:
+        print(f"{n} is prime")`, explanation: "else runs only if no break" }
+    ],
+    quiz: [
+      { question: "range(2, 10, 3) gives?", options: ["[2,5,8]", "[2,4,6,8]", "[3,6,9]", "[2,5,8,11]"], answer: 0 },
+      { question: "Loop else clause runs when?", options: ["Always", "Never", "On error", "No break"], answer: 3 }
+    ],
+    interviewQuestions: [
+      { q: "break vs continue?", a: "break exits loop entirely. continue skips current iteration, jumps to next. Both work in for/while, only affect innermost loop in nested loops." }
+    ]
+  },
+  {
+    id: 36,
+    language: "python",
+    module: "Python Basics",
+    title: "Functions",
+    difficulty: "beginner",
+    description: "Defining functions, parameters, return, default args, *args, **kwargs, scope.",
+    videoId: "a_gwOwkbhZ0",
+    videoTitle: "Functions in Python | Python Tutorial",
+    content: `Functions are first-class objects.
+
+**Definition**
+- def func_name(params):
+- Use docstrings
+- return value
+
+**Parameters**
+- Positional, default, keyword
+- *args (tuple), **kwargs (dict)
+
+**Scope (LEGB)**
+- Local → Enclosing → Global → Built-in
+- global, nonlocal keywords`,
+    codeExamples: [
+      { title: "Function Basics", code: `def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+print(greet("Alice"))
+print(greet("Bob", "Hi"))`, explanation: "Default parameters make args optional" },
+      { title: "*args, **kwargs", code: `def total(*args):
+    return sum(args)
+def profile(**kwargs):
+    for k, v in kwargs.items():
+        print(f"{k}: {v}")
+total(1,2,3)
+profile(name="Alice", age=30)`, explanation: "*args=tuple, **kwargs=dict" }
+    ],
+    quiz: [
+      { question: "*args collects into?", options: ["list", "tuple", "dict", "set"], answer: 1 },
+      { question: "Function with no return gives?", options: ["0", "", "None", "Error"], answer: 2 }
+    ],
+    interviewQuestions: [
+      { q: "*args vs **kwargs?", a: "*args collects extra positional args into tuple. **kwargs collects extra keyword args into dict. Order: (positional, *args, keyword-only, **kwargs)." }
+    ]
+  },
+  {
+    id: 37,
+    language: "python",
+    module: "Python Intermediate",
+    title: "List Comprehensions & Generators",
+    difficulty: "intermediate",
+    description: "List/dict/set comprehensions, generator expressions, memory efficiency.",
+    videoId: "bAUMuuRH99o",
+    videoTitle: "List Comprehensions in Python | Python Tutorial",
+    content: `Comprehensions are concise ways to create collections.
+
+**List Comprehension**
+- [expr for item in iterable if condition]
+
+**Dict/Set Comprehension**
+- {k: v for ...}
+- {expr for ...}
+
+**Generator Expression**
+- (expr for ...) — lazy evaluation
+- Memory efficient for large data`,
+    codeExamples: [
+      { title: "Comprehensions", code: `# List
+squares = [x**2 for x in range(10)]
+evens = [x for x in range(20) if x % 2 == 0]
+# Dict
+sq_dict = {x: x**2 for x in range(6)}
+# Set
+unique = {x % 3 for x in range(10)}`, explanation: "Concise, readable, fast" },
+      { title: "Generator Expression", code: `# Generator (lazy)
+gen = (x**2 for x in range(1000000))
+print(next(gen))  # 0
+print(next(gen))  # 1
+# Memory efficient for large data`, explanation: "Generators compute on-demand" }
+    ],
+    quiz: [
+      { question: "List comprehension syntax?", options: ["[for x in lst]", "[x for x in lst]", "{x for x in lst}", "(x for x in lst)"], answer: 1 },
+      { question: "Generator vs list?", options: ["Same", "Generator is lazy", "List is faster", "No difference"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "When to use generator vs list?", a: "Generators for large/infinite sequences (memory efficient, lazy evaluation). Lists when you need indexing, len(), or multiple iterations. Generators computed once, lists stored in memory." }
+    ]
+  },
+  {
+    id: 38,
+    language: "python",
+    module: "Python Intermediate",
+    title: "File Handling",
+    difficulty: "intermediate",
+    description: "Reading/writing files, context managers (with), CSV, JSON handling.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "File Handling in Python | Python Tutorial",
+    content: `File I/O with context managers for safety.
+
+**Opening Files**
+- open(path, mode)
+- Modes: 'r', 'w', 'a', 'r+', 'rb', 'wb'
+
+**Context Manager**
+- with open(path) as f:
+- Auto-closes file
+
+**Reading**
+- read(), readline(), readlines()
+- for line in file:
+
+**Writing**
+- write(text), writelines(list)
+
+**CSV & JSON**
+- csv module, json module`,
+    codeExamples: [
+      { title: "Read/Write", code: `# Write
+with open('data.txt', 'w') as f:
+    f.write("Hello\\n")
+    f.write("World")
+# Read
+with open('data.txt', 'r') as f:
+    content = f.read()
+    print(content)`, explanation: "with ensures file is closed" },
+      { title: "JSON", code: `import json
+data = {"name": "Alice", "age": 30}
+# Write JSON
+with open('data.json', 'w') as f:
+    json.dump(data, f)
+# Read JSON
+with open('data.json') as f:
+    loaded = json.load(f)`, explanation: "json.dump/load for files" }
+    ],
+    quiz: [
+      { question: "'w' mode does what?", options: ["Read", "Write (overwrite)", "Append", "Read/write"], answer: 1 },
+      { question: "Why use 'with'?", options: ["Faster", "Auto-closes", "Required", "Better syntax"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Why use context managers?", a: "Context managers (with statement) ensure resources are properly managed — files auto-close even if exceptions occur. Implements __enter__ and __exit__ methods. Prevents resource leaks." }
+    ]
+  },
+  {
+    id: 39,
+    language: "python",
+    module: "Python Intermediate",
+    title: "Exception Handling",
+    difficulty: "intermediate",
+    description: "try/except/else/finally, raising exceptions, custom exceptions.",
+    videoId: "WRNBQCl_cPU",
+    videoTitle: "Exception Handling - try except | Python Tutorial",
+    content: `Handle errors gracefully.
+
+**try/except**
+- try: risky code
+- except ExceptionType: handle
+- except: catch all (avoid)
+
+**else/finally**
+- else: runs if no exception
+- finally: always runs
+
+**Raising**
+- raise Exception("msg")
+- Custom exceptions`,
+    codeExamples: [
+      { title: "Basic try/except", code: `try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except Exception as e:
+    print(f"Error: {e}")
+finally:
+    print("Cleanup")`, explanation: "Specific exceptions first, generic last" },
+      { title: "Raising Exceptions", code: `def validate_age(age):
+    if age < 0:
+        raise ValueError("Age cannot be negative")
+    return age
+try:
+    validate_age(-5)
+except ValueError as e:
+    print(e)`, explanation: "Use raise to trigger exceptions" }
+    ],
+    quiz: [
+      { question: "finally clause runs when?", options: ["On error", "No error", "Always", "Never"], answer: 2 },
+      { question: "How to raise exception?", options: ["throw", "raise", "error", "except"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "try/except/else/finally execution order?", a: "1) try block runs. 2) If exception: except runs. If no exception: else runs. 3) finally ALWAYS runs (cleanup), even if return/break in try/except." }
+    ]
+  },
+  {
+    id: 40,
+    language: "python",
+    module: "Python Intermediate",
+    title: "Modules & Packages",
+    difficulty: "intermediate",
+    description: "Importing modules, creating packages, __init__.py, pip, virtual environments.",
+    videoId: "wCkHbaLG5cw",
+    videoTitle: "Modules in Python | Python Tutorial",
+    content: `Organize code into modules and packages.
+
+**Importing**
+- import module
+- from module import func
+- import module as alias
+- from package.module import *
+
+**Creating Modules**
+- Any .py file is a module
+- __name__ == "__main__" for scripts
+
+**Packages**
+- Directory with __init__.py
+- Organize related modules
+
+**pip & venv**
+- pip install package
+- python -m venv env`,
+    codeExamples: [
+      { title: "Import Patterns", code: `# Import entire module
+import math
+print(math.sqrt(16))
+# Import specific
+from math import sqrt, pi
+print(sqrt(16), pi)
+# Alias
+import numpy as np
+print(np.array([1,2,3]))`, explanation: "Prefer specific imports for clarity" },
+      { title: "Module Check", code: `# mymodule.py
+def greet():
+    print("Hello")
+if __name__ == "__main__":
+    # Only runs when executed directly
+    greet()`, explanation: "__name__ == '__main__' for scripts" }
+    ],
+    quiz: [
+      { question: "What makes a directory a package?", options: ["setup.py", "__init__.py", "package.json", "README"], answer: 1 },
+      { question: "Install package command?", options: ["npm install", "pip install", "conda get", "python get"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "__name__ == '__main__' purpose?", a: "Code under this check only runs when file is executed directly, not when imported as module. Allows modules to have executable scripts and importable functions." }
+    ]
+  },
+  {
+    id: 41,
+    language: "python",
+    module: "Python Intermediate",
+    title: "Object-Oriented Programming - Basics",
+    difficulty: "intermediate",
+    description: "Classes, objects, __init__, instance/class attributes, methods, self.",
+    videoId: "7RpdfkSyJfU",
+    videoTitle: "Classes and Objects in Python | Python Tutorial",
+    content: `Python is object-oriented.
+
+**Defining Classes**
+- class ClassName:
+- __init__(self, ...) constructor
+- self refers to instance
+
+**Attributes**
+- Instance attributes (self.x)
+- Class attributes (shared)
+
+**Methods**
+- Instance methods (self)
+- Class methods (@classmethod)
+- Static methods (@staticmethod)`,
+    codeExamples: [
+      { title: "Class Basics", code: `class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def greet(self):
+        return f"Hi, I'm {self.name}"
+p = Person("Alice", 30)
+print(p.greet())`, explanation: "__init__ is constructor, self is instance" },
+      { title: "Class vs Instance Attributes", code: `class Dog:
+    species = "Canis familiaris"  # class attr
+    def __init__(self, name):
+        self.name = name  # instance attr
+d1 = Dog("Buddy")
+d2 = Dog("Max")
+print(Dog.species)  # Same for all
+print(d1.name, d2.name)  # Different`, explanation: "Class attrs shared, instance attrs unique" }
+    ],
+    quiz: [
+      { question: "What is self?", options: ["Class name", "Instance reference", "Static var", "Constructor"], answer: 1 },
+      { question: "__init__ is?", options: ["Destructor", "Constructor", "Method", "Attribute"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Explain self in Python.", a: "self is a reference to the instance. It's the first parameter of instance methods (convention, not keyword). Allows accessing instance attributes/methods. Unlike Java/JS, Python requires explicit self." }
+    ]
+  },
+  {
+    id: 42,
+    language: "python",
+    module: "Python Intermediate",
+    title: "OOP - Inheritance & Polymorphism",
+    difficulty: "intermediate",
+    description: "Inheritance, super(), method overriding, multiple inheritance, MRO.",
+    videoId: "9loYq8W8rsg",
+    videoTitle: "Inheritance in Python | Python Tutorial",
+    content: `Inheritance allows code reuse.
+
+**Inheritance**
+- class Child(Parent):
+- super() calls parent methods
+
+**Method Overriding**
+- Redefine parent methods
+
+**Multiple Inheritance**
+- class C(A, B):
+- MRO (Method Resolution Order)
+
+**Polymorphism**
+- Same interface, different implementations`,
+    codeExamples: [
+      { title: "Inheritance", code: `class Animal:
+    def speak(self):
+        return "Some sound"
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+dog = Dog()
+print(dog.speak())  # Woof!`, explanation: "Child classes override parent methods" },
+      { title: "super()", code: `class Parent:
+    def __init__(self, name):
+        self.name = name
+class Child(Parent):
+    def __init__(self, name, age):
+        super().__init__(name)
+        self.age = age
+c = Child("Alice", 10)`, explanation: "super() calls parent constructor" }
+    ],
+    quiz: [
+      { question: "super() does what?", options: ["Creates instance", "Calls parent method", "Defines class", "Deletes object"], answer: 1 },
+      { question: "Can Python have multiple inheritance?", options: ["Yes", "No", "Only 2 classes", "Not recommended"], answer: 0 }
+    ],
+    interviewQuestions: [
+      { q: "What is MRO in Python?", a: "Method Resolution Order determines which parent class's method is called in multiple inheritance. Python uses C3 linearization algorithm. Check with ClassName.__mro__ or ClassName.mro()." }
+    ]
+  },
+  {
+    id: 43,
+    language: "python",
+    module: "Python Advanced",
+    title: "Decorators",
+    difficulty: "advanced",
+    description: "Function decorators, closures, @property, @staticmethod, @classmethod.",
+    videoId: "oR0yIjzfxQw",
+    videoTitle: "Decorators in Python | Python Tutorial",
+    content: `Decorators modify function behavior.
+
+**Function Decorators**
+- @decorator syntax
+- Wraps functions
+
+**Built-in Decorators**
+- @property (getter/setter)
+- @staticmethod (no self)
+- @classmethod (cls param)
+
+**Custom Decorators**
+- Returns wrapper function`,
+    codeExamples: [
+      { title: "Simple Decorator", code: `def uppercase(func):
+    def wrapper():
+        result = func()
+        return result.upper()
+    return wrapper
+@uppercase
+def greet():
+    return "hello"
+print(greet())  # HELLO`, explanation: "@uppercase is syntax sugar for greet = uppercase(greet)" },
+      { title: "@property", code: `class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    @property
+    def area(self):
+        return 3.14 * self._radius ** 2
+c = Circle(5)
+print(c.area)  # 78.5 (no parentheses)`, explanation: "@property makes method accessible as attribute" }
+    ],
+    quiz: [
+      { question: "What does @decorator do?", options: ["Comments code", "Modifies function", "Imports module", "Defines class"], answer: 1 },
+      { question: "@staticmethod has which param?", options: ["self", "cls", "None", "super"], answer: 2 }
+    ],
+    interviewQuestions: [
+      { q: "Explain decorators in Python.", a: "Decorators are functions that take a function and return a modified function. They wrap the original function to add functionality (logging, timing, access control). @decorator syntax is syntactic sugar for func = decorator(func)." }
+    ]
+  },
+  {
+    id: 44,
+    language: "python",
+    module: "Python Advanced",
+    title: "Lambda & Functional Programming",
+    difficulty: "advanced",
+    description: "Lambda functions, map(), filter(), reduce(), partial functions.",
+    videoId: "bJKjtC9MnZ8",
+    videoTitle: "Lambda Functions in Python | Python Tutorial",
+    content: `Functional programming in Python.
+
+**Lambda Functions**
+- lambda args: expression
+- Anonymous one-liner functions
+
+**map(func, iterable)**
+- Apply function to all items
+
+**filter(func, iterable)**
+- Keep items where func returns True
+
+**reduce(func, iterable)**
+- from functools import reduce
+- Cumulative computation`,
+    codeExamples: [
+      { title: "Lambda & map", code: `# Lambda
+square = lambda x: x**2
+print(square(5))  # 25
+# map
+nums = [1, 2, 3, 4]
+doubled = list(map(lambda x: x*2, nums))
+print(doubled)  # [2, 4, 6, 8]`, explanation: "Lambda for short anonymous functions" },
+      { title: "filter & reduce", code: `# filter
+nums = range(10)
+evens = list(filter(lambda x: x%2==0, nums))
+# reduce
+from functools import reduce
+product = reduce(lambda x,y: x*y, [1,2,3,4])
+print(product)  # 24`, explanation: "Functional style data transformation" }
+    ],
+    quiz: [
+      { question: "Lambda syntax?", options: ["func x: x", "lambda x: x", "def x: x", "=> x"], answer: 1 },
+      { question: "map() returns?", options: ["list", "iterator", "dict", "tuple"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Lambda vs def function?", a: "Lambda: single expression, anonymous, no statements. def: multiple statements, named, can have docstrings. Lambda for simple callbacks/transformations, def for complex logic." }
+    ]
+  },
+  {
+    id: 45,
+    language: "python",
+    module: "Python Advanced",
+    title: "Type Hints & Annotations",
+    difficulty: "advanced",
+    description: "Type hints, typing module, Optional, Union, List, Dict types.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Type Hints in Python | Python Tutorial",
+    content: `Optional static type hints (Python 3.5+).
+
+**Basic Types**
+- def func(x: int) -> str:
+
+**typing Module**
+- List[int], Dict[str, int]
+- Optional[int] (int or None)
+- Union[int, str]
+
+**Benefits**
+- IDE autocomplete
+- Type checkers (mypy)
+- Self-documenting code`,
+    codeExamples: [
+      { title: "Type Hints", code: `def greet(name: str) -> str:
+    return f"Hello, {name}"
+def add(a: int, b: int) -> int:
+    return a + b
+result: int = add(3, 5)`, explanation: "Not enforced at runtime, for tools/docs" },
+      { title: "typing Module", code: `from typing import List, Dict, Optional
+def process(items: List[int]) -> Dict[str, int]:
+    return {"count": len(items)}
+def find(name: str) -> Optional[str]:
+    return name if name else None`, explanation: "Complex types for collections" }
+    ],
+    quiz: [
+      { question: "Type hints are enforced?", options: ["Yes, always", "No, optional", "Only in strict mode", "Only with mypy"], answer: 1 },
+      { question: "Optional[int] means?", options: ["Required int", "int or None", "int or str", "Any type"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Are Python type hints enforced?", a: "No. Type hints are optional annotations for documentation and tooling (IDEs, mypy). Python remains dynamically typed at runtime. Type checkers can enforce them in CI/CD." }
+    ]
+  },
+  {
+    id: 46,
+    language: "python",
+    module: "Python Projects",
+    title: "Project: Simple Calculator CLI",
+    difficulty: "beginner",
+    description: "Build a command-line calculator with basic operations and error handling.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Python Project - Calculator | Python Tutorial",
+    content: `Build a calculator with:
+
+**Features**
+- Basic operations: +, -, *, /
+- Error handling
+- User input loop
+- Quit command
+
+**Concepts Used**
+- Functions
+- while loop
+- try/except
+- input/output`,
+    codeExamples: [
+      { title: "Calculator", code: `def calculate(a, b, op):
+    if op == '+': return a + b
+    elif op == '-': return a - b
+    elif op == '*': return a * b
+    elif op == '/': return a / b if b != 0 else "Error"
+while True:
+    try:
+        a = float(input("First: "))
+        op = input("Op (+,-,*,/): ")
+        b = float(input("Second: "))
+        print(f"Result: {calculate(a, b, op)}")
+    except ValueError:
+        print("Invalid input")
+    if input("Continue? (y/n): ") != 'y':
+        break`, explanation: "Combines user input, loops, error handling" }
+    ],
+    quiz: [
+      { question: "What handles invalid input?", options: ["if/else", "try/except", "match/case", "assert"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "How would you extend this calculator?", a: "Add: scientific functions (sqrt, sin, cos), expression parsing (eval with safety), history tracking (list of operations), save/load from file, GUI with tkinter." }
+    ]
+  },
+  {
+    id: 47,
+    language: "python",
+    module: "Python Projects",
+    title: "Project: File Organizer Script",
+    difficulty: "intermediate",
+    description: "Organize files by extension into folders automatically.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Python Project - File Organizer | Python Tutorial",
+    content: `Organize files by type.
+
+**Features**
+- Scan directory
+- Group by extension
+- Create folders
+- Move files
+
+**Modules Used**
+- os, shutil, pathlib`,
+    codeExamples: [
+      { title: "File Organizer", code: `import os, shutil
+from pathlib import Path
+def organize(directory):
+    for file in Path(directory).iterdir():
+        if file.is_file():
+            ext = file.suffix[1:]  # .txt -> txt
+            folder = Path(directory) / ext
+            folder.mkdir(exist_ok=True)
+            shutil.move(str(file), str(folder / file.name))
+organize('/path/to/downloads')`, explanation: "Automates file organization" }
+    ],
+    quiz: [
+      { question: "Which module moves files?", options: ["os", "shutil", "pathlib", "sys"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "How to make this safer?", a: "Add: dry-run mode (preview changes), undo functionality (log moves), handle name conflicts (append numbers), skip system files, add user confirmation, backup before moving." }
+    ]
+  },
+  {
+    id: 48,
+    language: "python",
+    module: "Python Projects",
+    title: "Project: Web Scraper with BeautifulSoup",
+    difficulty: "intermediate",
+    description: "Scrape website data and save to CSV using requests and BeautifulSoup.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Python Project - Web Scraper | Python Tutorial",
+    content: `Web scraping basics.
+
+**Libraries**
+- requests (HTTP)
+- BeautifulSoup (parsing)
+- csv (saving data)
+
+**Steps**
+1. Fetch HTML
+2. Parse with BeautifulSoup
+3. Extract data
+4. Save to CSV`,
+    codeExamples: [
+      { title: "Simple Scraper", code: `import requests
+from bs4 import BeautifulSoup
+import csv
+url = "https://example.com"
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+titles = [h2.text for h2 in soup.find_all('h2')]
+with open('data.csv', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerow(['Title'])
+    for title in titles:
+        writer.writerow([title])`, explanation: "Basic scraping + CSV export" }
+    ],
+    quiz: [
+      { question: "BeautifulSoup parses?", options: ["CSV", "HTML", "JSON", "XML only"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Ethical web scraping practices?", a: "Check robots.txt, respect rate limits, don't overload servers, use user-agent header, handle errors gracefully, cache data to reduce requests, prefer official APIs when available." }
+    ]
+  },
+  {
+    id: 49,
+    language: "python",
+    module: "Python Interview Prep",
+    title: "Python Interview - Core Concepts",
+    difficulty: "intermediate",
+    description: "Common interview questions on Python fundamentals, data structures, and key differences.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Python Interview Questions - Part 1",
+    content: `Essential Python interview topics.
+
+**Must-Know Topics**
+- List vs tuple vs set vs dict
+- Mutable vs immutable
+- == vs is
+- Deep vs shallow copy
+- GIL (Global Interpreter Lock)
+- *args, **kwargs
+- List comprehensions
+- Generators
+- Decorators
+- Context managers`,
+    codeExamples: [
+      { title: "Common Patterns", code: `# Remove duplicates (preserve order)
+lst = [1, 2, 2, 3, 1]
+unique = list(dict.fromkeys(lst))
+# Flatten nested list
+nested = [[1,2], [3,4]]
+flat = [x for sub in nested for x in sub]
+# Count occurrences
+from collections import Counter
+counts = Counter([1,2,2,3,3,3])
+print(counts.most_common(1))  # [(3, 3)]`, explanation: "Interview-favorite patterns" }
+    ],
+    quiz: [
+      { question: "What is GIL?", options: ["Graphics library", "Global Interpreter Lock", "Generator interface", "Generic iterator"], answer: 1 },
+      { question: "Deep copy module?", options: ["copy", "clone", "duplicate", "deepcopy"], answer: 0 }
+    ],
+    interviewQuestions: [
+      { q: "Explain the GIL.", a: "Global Interpreter Lock is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecode simultaneously. Consequence: CPU-bound multithreading doesn't parallelize. Solutions: multiprocessing, asyncio for I/O-bound tasks, or use C extensions." },
+      { q: "Shallow vs deep copy?", a: "Shallow copy (copy.copy()): creates new object but references same nested objects. Deep copy (copy.deepcopy()): recursively copies all objects. Matters for nested structures — shallow copy of [[1,2]] shares the inner list." }
+    ]
+  },
+  {
+    id: 50,
+    language: "python",
+    module: "Python Interview Prep",
+    title: "Python Interview - OOP & Design Patterns",
+    difficulty: "advanced",
+    description: "OOP concepts, SOLID principles, common design patterns in Python.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Python Interview - OOP Questions",
+    content: `OOP and design patterns.
+
+**OOP Pillars**
+- Encapsulation, Inheritance, Polymorphism, Abstraction
+
+**SOLID Principles**
+- Single Responsibility
+- Open/Closed
+- Liskov Substitution
+- Interface Segregation
+- Dependency Inversion
+
+**Common Patterns**
+- Singleton, Factory, Observer, Strategy, Decorator`,
+    codeExamples: [
+      { title: "Singleton Pattern", code: `class Singleton:
+    _instance = None
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+s1 = Singleton()
+s2 = Singleton()
+print(s1 is s2)  # True`, explanation: "Ensures only one instance exists" }
+    ],
+    quiz: [
+      { question: "Which ensures one instance?", options: ["Factory", "Singleton", "Observer", "Strategy"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Explain encapsulation in Python.", a: "Encapsulation bundles data (attributes) and methods in a class, hiding internal details. Python uses name mangling (double underscore prefix __attr) for pseudo-private attributes. No true private members — convention uses single underscore _attr for internal use." },
+      { q: "When to use ABC (Abstract Base Class)?", a: "Use ABC when you want to define an interface that subclasses must implement. from abc import ABC, abstractmethod. Enforces contract — subclasses must implement abstract methods or raise TypeError. Good for frameworks and APIs." }
+    ]
+  },
+  {
+    id: 51,
+    language: "python",
+    module: "Python Interview Prep",
+    title: "Python Interview - Data Structures & Algorithms",
+    difficulty: "advanced",
+    description: "Common DSA questions using Python: arrays, strings, hashmaps, sorting, searching.",
+    videoId: "C2AekaOlRcM",
+    videoTitle: "Python Interview - DSA Questions",
+    content: `Data structures and algorithms in Python.
+
+**Common Problems**
+- Two Sum (hashmap)
+- Reverse string/list
+- Palindrome check
+- Binary search
+- Merge sorted lists
+- Find duplicates
+- Valid parentheses (stack)
+
+**Python DSA Tools**
+- collections (deque, Counter, defaultdict)
+- heapq (priority queue)
+- bisect (binary search)
+- itertools (combinations, permutations)`,
+    codeExamples: [
+      { title: "Two Sum", code: `def two_sum(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    return []
+print(two_sum([2,7,11,15], 9))  # [0,1]`, explanation: "O(n) with hashmap" },
+      { title: "Valid Parentheses", code: `def valid_parens(s):
+    stack = []
+    pairs = {'(': ')', '[': ']', '{': '}'}
+    for char in s:
+        if char in pairs:
+            stack.append(char)
+        elif not stack or pairs[stack.pop()] != char:
+            return False
+    return not stack
+print(valid_parens("()[]{}"))  # True`, explanation: "Stack for bracket matching" }
+    ],
+    quiz: [
+      { question: "Two Sum optimal time?", options: ["O(n²)", "O(n log n)", "O(n)", "O(1)"], answer: 2 },
+      { question: "Valid parentheses uses?", options: ["Queue", "Stack", "Set", "Dict"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "How to reverse a string in Python?", a: "s[::-1] is most Pythonic. Alternatives: ''.join(reversed(s)), or manual loop. For in-place reversal of a list: lst.reverse() or lst[:] = lst[::-1]. Strings are immutable, so always create new string." },
+      { q: "Explain time complexity of dict operations.", a: "Average case: O(1) for get/set/delete due to hash table. Worst case: O(n) on hash collisions. Space: O(n). Keys must be hashable (immutable types). Python 3.7+ maintains insertion order." }
+    ]
+  },
+
+  // ============ PYTHON WEB DEVELOPMENT ============
+  {
+    id: 52,
+    language: "python",
+    module: "Python Web Development",
+    title: "Introduction to Flask",
+    difficulty: "intermediate",
+    description: "Build web applications with Flask, routes, templates, and request handling.",
+    videoId: "Z1RJmh_OqeA",
+    videoTitle: "Flask Tutorial for Beginners",
+    content: `Flask is a lightweight WSGI web framework for Python. It's called a "micro" framework because it keeps the core simple but extensible.
+
+**Why Flask?**
+- Minimal setup, great for small to medium projects
+- Flexible — no forced project structure
+- Easy to learn
+- Large ecosystem of extensions
+- RESTful request dispatching
+- Integrated development server and debugger
+
+**Installation**
+\`\`\`bash
+pip install flask
+\`\`\`
+
+**Core Concepts**
+- Routes: URL patterns mapped to functions
+- Templates: Jinja2 templating engine
+- Request/Response: handle HTTP methods
+- Sessions: user data across requests
+- Blueprints: organize large apps
+
+**Project Structure**
+\`\`\`
+myapp/
+  ├── app.py          # Main application
+  ├── templates/      # HTML templates
+  ├── static/         # CSS, JS, images
+  └── requirements.txt
+\`\`\``,
+    codeExamples: [
+      {
+        title: "Basic Flask App",
+        code: `from flask import Flask, render_template, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, Flask!"
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/api/data')
+def api_data():
+    return jsonify({'message': 'Hello API', 'status': 'success'})
+
+@app.route('/user/<username>')
+def show_user(username):
+    return f"User: {username}"
+
+if __name__ == '__main__':
+    app.run(debug=True)`,
+        explanation: "Routes map URLs to functions. @app.route() decorator defines endpoints. Variables in <> are path parameters."
+      },
+      {
+        title: "Handling Forms and POST Requests",
+        code: `from flask import Flask, request, redirect, url_for
+
+app = Flask(__name__)
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        
+        # Validate credentials
+        if username == 'admin' and password == 'secret':
+            return redirect(url_for('dashboard'))
+        else:
+            return "Invalid credentials", 401
+    
+    # GET request - show form
+    return '''
+        <form method="post">
+            <input name="username" placeholder="Username">
+            <input name="password" type="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    '''
+
+@app.route('/dashboard')
+def dashboard():
+    return "Welcome to Dashboard!"`,
+        explanation: "request.method checks HTTP method. request.form accesses form data. url_for() generates URLs by function name."
+      },
+      {
+        title: "JSON API with Error Handling",
+        code: `from flask import Flask, jsonify, request
+from functools import wraps
+
+app = Flask(__name__)
+
+def require_api_key(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        api_key = request.headers.get('X-API-Key')
+        if api_key != 'secret-key':
+            return jsonify({'error': 'Unauthorized'}), 401
+        return f(*args, **kwargs)
+    return decorated
+
+@app.route('/api/users', methods=['GET'])
+@require_api_key
+def get_users():
+    users = [
+        {'id': 1, 'name': 'Alice'},
+        {'id': 2, 'name': 'Bob'}
+    ]
+    return jsonify(users)
+
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify({'error': 'Not found'}), 404
+
+@app.errorhandler(500)
+def internal_error(error):
+    return jsonify({'error': 'Internal server error'}), 500`,
+        explanation: "Custom decorators for authentication. @app.errorhandler() for custom error responses."
+      }
+    ],
+    quiz: [
+      { question: "What is Flask?", options: ["Database", "Web framework", "Testing tool", "Package manager"], answer: 1 },
+      { question: "Which template engine does Flask use?", options: ["Django templates", "Jinja2", "Mako", "Handlebars"], answer: 1 },
+      { question: "How to run Flask in debug mode?", options: ["app.debug()", "app.run(debug=True)", "flask --debug", "debug=True"], answer: 1 },
+      { question: "What does @app.route() do?", options: ["Creates database", "Maps URL to function", "Sends email", "Validates forms"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "What is Flask and how does it differ from Django?", a: "Flask is a micro web framework — minimal core with extensions for additional features. Django is batteries-included with ORM, admin panel, auth built-in. Flask gives more flexibility and control, Django provides faster development with conventions. Choose Flask for APIs, microservices, custom architectures; Django for full-featured web apps with standard requirements." },
+      { q: "Explain Flask application context and request context.", a: "Application context: holds app-level data (config, database connections), exists once per application. Request context: created for each request, contains request and session objects. Use 'current_app' to access app context, 'request' for request context. Contexts are pushed/popped automatically but can be managed manually with 'with app.app_context()' or 'with app.test_request_context()'." }
+    ]
+  },
+  {
+    id: 53,
+    language: "python",
+    module: "Python Web Development",
+    title: "Django Fundamentals",
+    difficulty: "intermediate",
+    description: "Build robust web apps with Django: models, views, templates, and the admin interface.",
+    videoId: "rHux0gMZ3Eg",
+    videoTitle: "Django Tutorial for Beginners",
+    content: `Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+
+**Philosophy**
+- "Batteries included" — comes with everything you need
+- DRY (Don't Repeat Yourself)
+- Convention over configuration
+- Security by default
+
+**Installation**
+\`\`\`bash
+pip install django
+django-admin startproject mysite
+python manage.py runserver
+\`\`\`
+
+**Key Components**
+- **Models**: Database structure (ORM)
+- **Views**: Business logic
+- **Templates**: HTML presentation
+- **URLs**: Routing configuration
+- **Admin**: Auto-generated admin interface
+- **Forms**: Data validation and processing
+
+**MTV Pattern**
+Model-Template-View (similar to MVC but View handles logic, Template handles presentation)
+
+**Apps**
+Django projects contain multiple apps. Each app is a Python package that does one thing.`,
+    codeExamples: [
+      {
+        title: "Django Models - ORM",
+        code: `# models.py
+from django.db import models
+from django.contrib.auth.models import User
+
+class Category(models.Model):
+    name = models.CharField(max_length=100)
+    slug = models.SlugField(unique=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        verbose_name_plural = "Categories"
+    
+    def __str__(self):
+        return self.name
+
+class Post(models.Model):
+    STATUS_CHOICES = [
+        ('draft', 'Draft'),
+        ('published', 'Published'),
+    ]
+    
+    title = models.CharField(max_length=200)
+    slug = models.SlugField(unique=True)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
+    content = models.TextField()
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    
+    class Meta:
+        ordering = ['-created_at']
+    
+    def __str__(self):
+        return self.title
+
+# Create migrations:
+# python manage.py makemigrations
+# python manage.py migrate`,
+        explanation: "Models define database schema. Django ORM handles SQL. Field types map to database columns. Relationships: ForeignKey, ManyToManyField, OneToOneField."
+      },
+      {
+        title: "Django Views - Function and Class-Based",
+        code: `# views.py
+from django.shortcuts import render, get_object_or_404, redirect
+from django.views.generic import ListView, DetailView
+from django.contrib.auth.decorators import login_required
+from .models import Post, Category
+
+# Function-based view
+def post_list(request):
+    posts = Post.objects.filter(status='published')
+    categories = Category.objects.all()
+    context = {
+        'posts': posts,
+        'categories': categories
+    }
+    return render(request, 'blog/post_list.html', context)
+
+def post_detail(request, slug):
+    post = get_object_or_404(Post, slug=slug, status='published')
+    return render(request, 'blog/post_detail.html', {'post': post})
+
+# Class-based view
+class PostListView(ListView):
+    model = Post
+    template_name = 'blog/post_list.html'
+    context_object_name = 'posts'
+    paginate_by = 10
+    
+    def get_queryset(self):
+        return Post.objects.filter(status='published')
+
+class PostDetailView(DetailView):
+    model = Post
+    template_name = 'blog/post_detail.html'
+    context_object_name = 'post'
+    slug_field = 'slug'
+
+# Protected view
+@login_required
+def create_post(request):
+    if request.method == 'POST':
+        # Handle form submission
+        pass
+    return render(request, 'blog/create_post.html')`,
+        explanation: "Function-based views are simple functions. Class-based views (CBVs) provide reusable patterns. get_object_or_404 returns 404 if not found."
+      },
+      {
+        title: "Django URLs and Templates",
+        code: `# urls.py
+from django.urls import path
+from . import views
+
+app_name = 'blog'
+
+urlpatterns = [
+    path('', views.PostListView.as_view(), name='post_list'),
+    path('post/<slug:slug>/', views.post_detail, name='post_detail'),
+    path('category/<slug:slug>/', views.category_posts, name='category_posts'),
+    path('create/', views.create_post, name='create_post'),
+]
+
+# Template: post_list.html
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Blog Posts</h1>
+  
+  {% for post in posts %}
+    <article>
+      <h2>
+        <a href="{% url 'blog:post_detail' post.slug %}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <p>By {{ post.author.username }} on {{ post.created_at|date:"F j, Y" }}</p>
+      <p>{{ post.content|truncatewords:30 }}</p>
+    </article>
+  {% empty %}
+    <p>No posts available.</p>
+  {% endfor %}
+  
+  {% if is_paginated %}
+    <div class="pagination">
+      {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
+      {% endif %}
+      <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+      {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">Next</a>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}`,
+        explanation: "URL patterns use path converters like <slug:slug>. Templates use {% %} for logic, {{ }} for variables. Filters modify display with |."
+      }
+    ],
+    quiz: [
+      { question: "What does ORM stand for?", options: ["Object Relational Mapping", "Online Resource Manager", "Operational Risk Model", "Open Request Method"], answer: 0 },
+      { question: "Django's design pattern is called?", options: ["MVC", "MVP", "MTV", "MVVM"], answer: 2 },
+      { question: "Command to create migrations?", options: ["migrate", "makemigrations", "syncdb", "createdb"], answer: 1 },
+      { question: "What is django-admin?", options: ["Admin panel", "Command-line utility", "Database tool", "Testing framework"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Explain Django's MTV architecture.", a: "MTV = Model-Template-View. Model: data layer (ORM, database schema). Template: presentation layer (HTML with Django template language). View: business logic (processes requests, interacts with models, returns responses). URLs route requests to views. Similar to MVC but View is controller and Template is view." },
+      { q: "What are Django signals and when to use them?", a: "Signals allow decoupled applications to get notified when actions occur. Common signals: pre_save, post_save, pre_delete, post_delete, m2m_changed. Use for side effects: sending emails after user registration, updating cache, logging. Avoid for core business logic — use model methods instead. Signals can make debugging harder due to hidden coupling." }
+    ]
+  },
+  {
+    id: 54,
+    language: "python",
+    module: "Python Web Development",
+    title: "REST APIs with Django REST Framework",
+    difficulty: "advanced",
+    description: "Build powerful RESTful APIs with serializers, viewsets, authentication, and permissions.",
+    videoId: "c708Nf0cHrs",
+    videoTitle: "Django REST Framework Tutorial",
+    content: `Django REST Framework (DRF) is a powerful toolkit for building Web APIs.
+
+**Features**
+- Serialization of complex data types
+- Authentication (token, session, JWT, OAuth)
+- Permissions and throttling
+- Browsable API for testing
+- Pagination, filtering, searching
+- Viewsets and routers
+
+**Installation**
+\`\`\`bash
+pip install djangorestframework
+pip install djangorestframework-simplejwt  # For JWT auth
+\`\`\`
+
+**Core Concepts**
+- **Serializers**: Convert complex data ↔ JSON/XML
+- **Views/Viewsets**: Handle API logic
+- **Routers**: Auto-generate URL patterns
+- **Authentication**: Verify user identity
+- **Permissions**: Control access
+
+**Best Practices**
+- Version your API (/api/v1/)
+- Use proper HTTP methods and status codes
+- Implement pagination for large datasets
+- Add filtering and searching
+- Document with drf-spectacular or drf-yasg`,
+    codeExamples: [
+      {
+        title: "Serializers - Data Transformation",
+        code: `# serializers.py
+from rest_framework import serializers
+from .models import Post, Category, Comment
+
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = ['id', 'name', 'slug']
+
+class CommentSerializer(serializers.ModelSerializer):
+    author_name = serializers.CharField(source='author.username', read_only=True)
+    
+    class Meta:
+        model = Comment
+        fields = ['id', 'author_name', 'content', 'created_at']
+        read_only_fields = ['created_at']
+
+class PostSerializer(serializers.ModelSerializer):
+    author = serializers.StringRelatedField(read_only=True)
+    category = CategorySerializer(read_only=True)
+    category_id = serializers.IntegerField(write_only=True)
+    comments = CommentSerializer(many=True, read_only=True)
+    comments_count = serializers.SerializerMethodField()
+    
+    class Meta:
+        model = Post
+        fields = [
+            'id', 'title', 'slug', 'author', 'category', 
+            'category_id', 'content', 'status', 'created_at',
+            'comments', 'comments_count'
+        ]
+        read_only_fields = ['created_at', 'author']
+    
+    def get_comments_count(self, obj):
+        return obj.comments.count()
+    
+    def validate_title(self, value):
+        if len(value) < 5:
+            raise serializers.ValidationError("Title too short")
+        return value
+
+class PostCreateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Post
+        fields = ['title', 'content', 'category', 'status']`,
+        explanation: "Serializers validate and transform data. ModelSerializer auto-generates fields. SerializerMethodField for computed values. Use separate serializers for different operations."
+      },
+      {
+        title: "Viewsets and Routers",
+        code: `# views.py
+from rest_framework import viewsets, status, filters
+from rest_framework.decorators import action
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from django_filters.rest_framework import DjangoFilterBackend
+from .models import Post, Category
+from .serializers import PostSerializer, CategorySerializer
+from .permissions import IsAuthorOrReadOnly
+
+class PostViewSet(viewsets.ModelViewSet):
+    queryset = Post.objects.filter(status='published')
+    serializer_class = PostSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly, IsAuthorOrReadOnly]
+    filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+    filterset_fields = ['category', 'author', 'status']
+    search_fields = ['title', 'content']
+    ordering_fields = ['created_at', 'title']
+    
+    def perform_create(self, serializer):
+        serializer.save(author=self.request.user)
+    
+    # Custom action
+    @action(detail=True, methods=['post'])
+    def publish(self, request, pk=None):
+        post = self.get_object()
+        post.status = 'published'
+        post.save()
+        return Response({'status': 'post published'})
+    
+    @action(detail=False, methods=['get'])
+    def my_posts(self, request):
+        posts = Post.objects.filter(author=request.user)
+        serializer = self.get_serializer(posts, many=True)
+        return Response(serializer.data)
+
+class CategoryViewSet(viewsets.ReadOnlyModelViewSet):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+# urls.py
+from rest_framework.routers import DefaultRouter
+from .views import PostViewSet, CategoryViewSet
+
+router = DefaultRouter()
+router.register(r'posts', PostViewSet, basename='post')
+router.register(r'categories', CategoryViewSet, basename='category')
+
+urlpatterns = router.urls
+# Auto-generates:
+# GET    /posts/          - list
+# POST   /posts/          - create
+# GET    /posts/{id}/     - retrieve
+# PUT    /posts/{id}/     - update
+# PATCH  /posts/{id}/     - partial update
+# DELETE /posts/{id}/     - delete
+# POST   /posts/{id}/publish/  - custom action`,
+        explanation: "ViewSets combine logic for CRUD operations. Routers auto-generate URLs. @action creates custom endpoints. ModelViewSet provides all CRUD, ReadOnlyModelViewSet only GET."
+      },
+      {
+        title: "Authentication and Permissions",
+        code: `# settings.py
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 20,
+}
+
+# permissions.py
+from rest_framework import permissions
+
+class IsAuthorOrReadOnly(permissions.BasePermission):
+    def has_object_permission(self, request, view, obj):
+        # Read permissions for any request
+        if request.method in permissions.SAFE_METHODS:
+            return True
+        # Write permissions only for author
+        return obj.author == request.user
+
+# JWT URLs
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+)
+
+urlpatterns = [
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+]
+
+# Usage:
+# POST /api/token/  {"username": "user", "password": "pass"}
+# Returns: {"access": "...", "refresh": "..."}
+# Headers: Authorization: Bearer <access_token>`,
+        explanation: "JWT tokens for stateless auth. Custom permissions inherit BasePermission. SAFE_METHODS = GET, HEAD, OPTIONS. Configure DRF globally in settings.REST_FRAMEWORK."
+      }
+    ],
+    quiz: [
+      { question: "What does DRF stand for?", options: ["Django REST Framework", "Data REST Format", "Django Response Form", "Database REST Function"], answer: 0 },
+      { question: "Which HTTP method for updating partial data?", options: ["PUT", "PATCH", "POST", "UPDATE"], answer: 1 },
+      { question: "What are SAFE_METHODS?", options: ["POST, PUT, DELETE", "GET, HEAD, OPTIONS", "All methods", "None"], answer: 1 },
+      { question: "JWT stands for?", options: ["Java Web Token", "JSON Web Token", "JavaScript Web Tool", "Join Web Transfer"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Difference between APIView, GenericAPIView, and ViewSet in DRF?", a: "APIView: lowest level, manual method handling (get, post, etc). GenericAPIView: adds queryset/serializer, requires mixins or explicit methods. ViewSet: combines logic for related views (list, create, retrieve, update, delete) into one class. ModelViewSet = GenericViewSet + all CRUD mixins. Use APIView for custom logic, ViewSets for standard CRUD with routers." },
+      { q: "How to implement API versioning in DRF?", a: "Three approaches: 1) URL path versioning (/api/v1/posts/) - most common, clear. 2) Query parameter (?version=1) - flexible. 3) Header versioning (Accept: application/json; version=1) - clean URLs but hidden. Configure in settings: DEFAULT_VERSIONING_CLASS. URLPathVersioning recommended for public APIs. Access version in view with request.version." }
+    ]
+  },
+
+  // ============ PYTHON DATA SCIENCE ============
+  {
+    id: 55,
+    language: "python",
+    module: "Python Data Science",
+    title: "NumPy Fundamentals",
+    difficulty: "intermediate",
+    description: "Master numerical computing with NumPy arrays, operations, broadcasting, and linear algebra.",
+    videoId: "QUT1VHiLmmI",
+    videoTitle: "NumPy Tutorial for Beginners",
+    content: `NumPy is the fundamental package for scientific computing in Python. It provides powerful N-dimensional array objects and tools.
+
+**Why NumPy?**
+- Fast operations on arrays (written in C)
+- 50x faster than Python lists for numerical operations
+- Broadcasting: vectorized operations
+- Foundation for Pandas, SciPy, Scikit-learn
+- Linear algebra, Fourier transform, random numbers
+
+**Installation**
+\`\`\`bash
+pip install numpy
+\`\`\`
+
+**Key Concepts**
+- **ndarray**: N-dimensional array object
+- **dtype**: Data type (int32, float64, etc.)
+- **Shape**: Dimensions of array
+- **Broadcasting**: Operations on arrays of different shapes
+- **Indexing/Slicing**: Access and modify data
+- **Universal functions (ufuncs)**: Fast element-wise operations
+
+**Performance**
+NumPy arrays use contiguous memory blocks, enabling SIMD operations and cache optimization.`,
+    codeExamples: [
+      {
+        title: "Array Creation and Properties",
+        code: `import numpy as np
+
+# Create arrays
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Special arrays
+zeros = np.zeros((3, 4))           # 3x4 array of zeros
+ones = np.ones((2, 3), dtype=int)  # 2x3 array of ones
+identity = np.eye(4)                # 4x4 identity matrix
+range_arr = np.arange(0, 10, 2)    # [0, 2, 4, 6, 8]
+linspace = np.linspace(0, 1, 5)    # 5 evenly spaced [0, 0.25, 0.5, 0.75, 1]
+random_arr = np.random.rand(3, 3)  # 3x3 random floats [0, 1)
+random_int = np.random.randint(0, 100, size=(4, 4))
+
+# Properties
+print(arr2.shape)      # (2, 3)
+print(arr2.dtype)      # int64
+print(arr2.ndim)       # 2
+print(arr2.size)       # 6
+print(arr2.itemsize)   # 8 bytes
+
+# Reshape
+reshaped = arr1.reshape(5, 1)  # Column vector
+flattened = arr2.flatten()     # 1D array [1,2,3,4,5,6]
+transposed = arr2.T            # Transpose`,
+        explanation: "ndarray is NumPy's array type. shape, dtype, size describe array. reshape changes dimensions without copying data (if possible). arange like range, linspace for floats."
+      },
+      {
+        title: "Array Operations and Broadcasting",
+        code: `import numpy as np
+
+# Element-wise operations
+a = np.array([1, 2, 3, 4])
+b = np.array([10, 20, 30, 40])
+
+print(a + b)        # [11, 22, 33, 44]
+print(a * b)        # [10, 40, 90, 160]
+print(a ** 2)       # [1, 4, 9, 16]
+print(np.sqrt(a))   # [1., 1.41, 1.73, 2.]
+
+# Scalar operations (broadcasting)
+print(a + 10)       # [11, 12, 13, 14]
+print(a * 2)        # [2, 4, 6, 8]
+
+# Matrix operations
+m1 = np.array([[1, 2], [3, 4]])
+m2 = np.array([[5, 6], [7, 8]])
+
+print(m1 + m2)              # Element-wise addition
+print(m1 * m2)              # Element-wise multiplication
+print(m1 @ m2)              # Matrix multiplication (dot product)
+print(np.dot(m1, m2))       # Same as @
+
+# Broadcasting different shapes
+matrix = np.array([[1, 2, 3], [4, 5, 6]])  # (2, 3)
+row = np.array([10, 20, 30])                # (3,)
+print(matrix + row)  
+# [[11, 22, 33]
+#  [14, 25, 36]]
+
+# Aggregate functions
+data = np.array([[1, 2, 3], [4, 5, 6]])
+print(data.sum())           # 21
+print(data.sum(axis=0))     # [5, 7, 9] - column sums
+print(data.sum(axis=1))     # [6, 15] - row sums
+print(data.mean())          # 3.5
+print(data.std())           # Standard deviation
+print(data.min(), data.max())`,
+        explanation: "Operations are vectorized (applied to all elements). Broadcasting extends smaller arrays. axis=0 is columns, axis=1 is rows. @ operator for matrix multiplication."
+      },
+      {
+        title: "Indexing, Slicing, and Boolean Masking",
+        code: `import numpy as np
+
+# Basic indexing
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[0])        # 10
+print(arr[-1])       # 50
+print(arr[1:4])      # [20, 30, 40]
+print(arr[::2])      # [10, 30, 50] - every 2nd element
+
+# 2D indexing
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(matrix[0, 1])     # 2
+print(matrix[1])        # [4, 5, 6] - row 1
+print(matrix[:, 2])     # [3, 6, 9] - column 2
+print(matrix[0:2, 1:3]) # [[2,3], [5,6]] - submatrix
+
+# Boolean indexing
+data = np.array([15, 3, 28, 7, 42, 11])
+mask = data > 10
+print(mask)         # [True, False, True, False, True, True]
+print(data[mask])   # [15, 28, 42, 11]
+print(data[data > 10])  # Same as above
+
+# Conditional operations
+arr = np.array([1, 2, 3, 4, 5])
+result = np.where(arr > 3, arr * 2, arr)  # [1,2,3,8,10]
+
+# Fancy indexing
+indices = np.array([0, 2, 4])
+print(data[indices])  # [15, 28, 42]
+
+# Modify with boolean indexing
+data[data > 20] = 99
+print(data)  # [15, 3, 99, 7, 99, 11]`,
+        explanation: "Slicing syntax same as Python lists. Multi-dimensional with comma. Boolean arrays for filtering. np.where() for conditional assignment. Fancy indexing with array of indices."
+      },
+      {
+        title: "Linear Algebra and Statistics",
+        code: `import numpy as np
+
+# Linear algebra
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+# Matrix operations
+print(np.dot(A, B))       # Matrix multiplication
+print(A.T)                # Transpose
+print(np.linalg.inv(A))   # Inverse
+print(np.linalg.det(A))   # Determinant: -2.0
+
+# Eigenvalues and eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(A)
+print(eigenvalues)
+
+# Solve linear system: Ax = b
+b = np.array([5, 11])
+x = np.linalg.solve(A, b)
+print(x)  # Solution
+
+# Statistics
+data = np.array([12, 15, 18, 20, 22, 25, 28, 30])
+print(np.mean(data))      # 21.25
+print(np.median(data))    # 21.0
+print(np.std(data))       # Standard deviation
+print(np.var(data))       # Variance
+print(np.percentile(data, 75))  # 75th percentile
+
+# Correlation
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([2, 4, 5, 4, 5])
+print(np.corrcoef(x, y))  # Correlation matrix
+
+# Random sampling
+np.random.seed(42)  # Reproducible random
+samples = np.random.normal(loc=0, scale=1, size=1000)  # Mean 0, std 1
+print(samples.mean(), samples.std())`,
+        explanation: "np.linalg for linear algebra operations. Solve systems, compute eigenvalues, determinants. Statistics functions for mean, median, std. Random module for sampling."
+      }
+    ],
+    quiz: [
+      { question: "What does NumPy stand for?", options: ["Numerical Python", "Number Pyramid", "Numeric Py", "None"], answer: 0 },
+      { question: "What is broadcasting?", options: ["Sending data over network", "Operations on arrays of different shapes", "Copying arrays", "Array initialization"], answer: 1 },
+      { question: "axis=0 refers to?", options: ["Rows", "Columns", "Depth", "All"], answer: 1 },
+      { question: "@ operator does?", options: ["Element-wise multiply", "Matrix multiplication", "Concatenation", "Comparison"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "What is the difference between a Python list and NumPy array?", a: "NumPy arrays: homogeneous types, fixed size (efficient memory), vectorized operations (50x faster), supports multi-dimensional, broadcasting. Python lists: heterogeneous types, dynamic size, element-wise operations need loops, 1D only (nested for multi-D), no broadcasting. Use NumPy for numerical computation, lists for general collections." },
+      { q: "Explain NumPy broadcasting rules.", a: "Broadcasting allows operations on arrays of different shapes. Rules: 1) If arrays differ in dimensions, prepend 1s to smaller shape. 2) Arrays compatible if dimensions are equal OR one is 1. 3) Output shape is max of input shapes in each dimension. Example: (3,4) + (4,) → (3,4) + (1,4) → (3,4). Incompatible: (3,4) + (3,) fails because trailing dimensions don't match." }
+    ]
+  },
+  {
+    id: 56,
+    language: "python",
+    module: "Python Data Science",
+    title: "Pandas for Data Analysis",
+    difficulty: "intermediate",
+    description: "Data manipulation with Pandas: Series, DataFrames, indexing, grouping, merging, and time series.",
+    videoId: "vmEHCJofslg",
+    videoTitle: "Pandas Tutorial for Beginners",
+    content: `Pandas is the most popular data manipulation and analysis library for Python.
+
+**Core Data Structures**
+- **Series**: 1D labeled array
+- **DataFrame**: 2D labeled table (like Excel/SQL table)
+
+**Key Features**
+- Reading/writing data (CSV, Excel, SQL, JSON)
+- Data cleaning and preprocessing
+- Filtering, grouping, aggregating
+- Handling missing data
+- Time series functionality
+- Merging and joining datasets
+
+**Installation**
+\`\`\`bash
+pip install pandas
+\`\`\`
+
+**Common Use Cases**
+- Exploratory Data Analysis (EDA)
+- Data cleaning for ML pipelines
+- ETL (Extract, Transform, Load) operations
+- Business analytics and reporting
+- Time series analysis`,
+    codeExamples: [
+      {
+        title: "Series and DataFrames Basics",
+        code: `import pandas as pd
+import numpy as np
+
+# Series - 1D array with labels
+s = pd.Series([10, 20, 30, 40], index=['a', 'b', 'c', 'd'])
+print(s)
+print(s['b'])        # 20
+print(s[s > 20])     # Filter
+
+# DataFrame - 2D table
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 28],
+    'City': ['NYC', 'LA', 'Chicago', 'Houston'],
+    'Salary': [70000, 85000, 90000, 75000]
+}
+df = pd.DataFrame(data)
+print(df)
+
+# DataFrame properties
+print(df.shape)        # (4, 4)
+print(df.columns)      # Column names
+print(df.index)        # Row labels
+print(df.dtypes)       # Data types
+print(df.info())       # Summary
+print(df.describe())   # Statistics for numeric columns
+
+# Access columns
+print(df['Name'])           # Series
+print(df[['Name', 'Age']])  # DataFrame with 2 columns
+
+# Add new column
+df['Bonus'] = df['Salary'] * 0.1
+df['Senior'] = df['Age'] > 30
+
+# Drop column
+df = df.drop('Bonus', axis=1)  # axis=1 for columns`,
+        explanation: "Series is 1D with index. DataFrame is 2D table with row/column labels. Access columns with df['col'] or df[['col1', 'col2']]. Add columns with assignment."
+      },
+      {
+        title: "Indexing, Selection, and Filtering",
+        code: `import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'Age': [25, 30, 35, 28, 32],
+    'Department': ['HR', 'IT', 'IT', 'HR', 'Finance'],
+    'Salary': [70000, 85000, 90000, 75000, 88000]
+})
+
+# Selection by label - loc
+print(df.loc[0])                    # First row as Series
+print(df.loc[0:2, ['Name', 'Age']]) # Rows 0-2, specific columns
+print(df.loc[df['Age'] > 30])       # Filter rows
+
+# Selection by position - iloc
+print(df.iloc[0])          # First row
+print(df.iloc[0:3, 1:3])   # Rows 0-2, columns 1-2
+print(df.iloc[:, -1])      # Last column
+
+# Boolean filtering
+high_salary = df[df['Salary'] > 80000]
+it_dept = df[df['Department'] == 'IT']
+
+# Multiple conditions
+young_high_earners = df[(df['Age'] < 30) & (df['Salary'] > 70000)]
+hr_or_finance = df[df['Department'].isin(['HR', 'Finance'])]
+
+# Query method
+result = df.query('Age > 30 and Salary > 80000')
+
+# Set index
+df_indexed = df.set_index('Name')
+print(df_indexed.loc['Alice'])  # Access by name
+
+# Reset index
+df_reset = df_indexed.reset_index()`,
+        explanation: "loc for label-based, iloc for position-based. Boolean indexing for filtering. & for AND, | for OR (use parentheses). isin() for multiple values. query() for SQL-like filtering."
+      },
+      {
+        title: "Data Cleaning and Transformation",
+        code: `import pandas as pd
+import numpy as np
+
+# Sample data with issues
+df = pd.DataFrame({
+    'Name': ['Alice', 'Bob', None, 'David', 'Eve'],
+    'Age': [25, np.nan, 35, 28, 32],
+    'Salary': ['70000', '85000', '90000', None, '88000'],
+    'Date': ['2023-01-15', '2023-02-20', '2023-03-10', '2023-04-05', '2023-05-12']
+})
+
+# Handle missing data
+print(df.isnull())              # Boolean mask of nulls
+print(df.isnull().sum())        # Count nulls per column
+df_clean = df.dropna()          # Remove rows with any null
+df_filled = df.fillna(0)        # Fill nulls with 0
+df['Age'].fillna(df['Age'].mean(), inplace=True)  # Fill with mean
+
+# Type conversion
+df['Salary'] = pd.to_numeric(df['Salary'], errors='coerce')  # Convert to numeric
+df['Date'] = pd.to_datetime(df['Date'])  # Convert to datetime
+
+# String operations
+df['Name_Upper'] = df['Name'].str.upper()
+df['Name_Length'] = df['Name'].str.len()
+filtered = df[df['Name'].str.startswith('A', na=False)]
+
+# Apply functions
+df['Tax'] = df['Salary'].apply(lambda x: x * 0.3 if pd.notna(x) else 0)
+
+def categorize_age(age):
+    if pd.isna(age):
+        return 'Unknown'
+    elif age < 30:
+        return 'Young'
+    else:
+        return 'Senior'
+
+df['Age_Category'] = df['Age'].apply(categorize_age)
+
+# Map values
+dept_map = {'HR': 'Human Resources', 'IT': 'Information Technology'}
+df['Dept_Full'] = df['Department'].map(dept_map)
+
+# Replace values
+df['Status'] = df['Status'].replace({'A': 'Active', 'I': 'Inactive'})`,
+        explanation: "isnull() detects missing data. dropna() removes, fillna() fills. pd.to_numeric(), pd.to_datetime() for conversion. .str accessor for string methods. apply() for custom functions."
+      },
+      {
+        title: "GroupBy, Aggregation, and Merging",
+        code: `import pandas as pd
+
+# Sample data
+df = pd.DataFrame({
+    'Department': ['IT', 'IT', 'HR', 'HR', 'Finance', 'Finance'],
+    'Employee': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank'],
+    'Salary': [85000, 90000, 70000, 75000, 88000, 92000],
+    'Years': [5, 3, 7, 4, 6, 8]
+})
+
+# GroupBy and aggregation
+dept_stats = df.groupby('Department')['Salary'].mean()
+print(dept_stats)
+
+# Multiple aggregations
+agg_df = df.groupby('Department').agg({
+    'Salary': ['mean', 'sum', 'count'],
+    'Years': ['mean', 'max']
+})
+print(agg_df)
+
+# Custom aggregation
+def salary_range(series):
+    return series.max() - series.min()
+
+result = df.groupby('Department')['Salary'].agg(['mean', salary_range])
+
+# Pivot table
+pivot = df.pivot_table(
+    values='Salary', 
+    index='Department', 
+    aggfunc=['mean', 'count']
+)
+
+# Merging DataFrames
+df1 = pd.DataFrame({
+    'EmployeeID': [1, 2, 3],
+    'Name': ['Alice', 'Bob', 'Charlie']
+})
+
+df2 = pd.DataFrame({
+    'EmployeeID': [1, 2, 4],
+    'Salary': [70000, 85000, 90000]
+})
+
+# Inner join (default)
+merged = pd.merge(df1, df2, on='EmployeeID')
+
+# Left join - keep all from df1
+left_merged = pd.merge(df1, df2, on='EmployeeID', how='left')
+
+# Outer join - keep all from both
+outer_merged = pd.merge(df1, df2, on='EmployeeID', how='outer')
+
+# Concatenate DataFrames
+df_concat = pd.concat([df1, df2], axis=0, ignore_index=True)  # Stack vertically`,
+        explanation: "groupby() splits data by category. agg() applies multiple functions. pivot_table() for Excel-like tables. merge() for SQL-like joins. concat() stacks DataFrames."
+      },
+      {
+        title: "Reading/Writing Data and Time Series",
+        code: `import pandas as pd
+
+# Read CSV
+df = pd.read_csv('data.csv')
+df = pd.read_csv('data.csv', sep=';', header=0, index_col=0, parse_dates=['Date'])
+
+# Write CSV
+df.to_csv('output.csv', index=False)
+
+# Excel
+df = pd.read_excel('data.xlsx', sheet_name='Sheet1')
+df.to_excel('output.xlsx', sheet_name='Results', index=False)
+
+# JSON
+df = pd.read_json('data.json')
+df.to_json('output.json', orient='records')
+
+# SQL
+import sqlite3
+conn = sqlite3.connect('database.db')
+df = pd.read_sql_query('SELECT * FROM users', conn)
+df.to_sql('users', conn, if_exists='replace', index=False)
+
+# Time series
+dates = pd.date_range('2023-01-01', periods=100, freq='D')
+ts = pd.Series(range(100), index=dates)
+
+# Date operations
+print(ts['2023-01'])        # January data
+print(ts['2023-01':'2023-02'])  # Range
+
+# Resample
+monthly = ts.resample('M').sum()    # Monthly totals
+weekly_mean = ts.resample('W').mean()  # Weekly averages
+
+# Rolling window
+rolling_mean = ts.rolling(window=7).mean()  # 7-day moving average
+
+# Shift data
+ts_shifted = ts.shift(1)    # Shift forward by 1
+pct_change = ts.pct_change()  # Percentage change`,
+        explanation: "read_csv/to_csv for CSV files. read_excel/to_excel for Excel. parse_dates converts to datetime. resample() for time period aggregation. rolling() for moving windows."
+      }
+    ],
+    quiz: [
+      { question: "What is a DataFrame?", options: ["1D array", "2D labeled table", "3D tensor", "Dictionary"], answer: 1 },
+      { question: "loc is used for?", options: ["Label-based indexing", "Position-based indexing", "Boolean indexing", "Random selection"], answer: 0 },
+      { question: "How to handle missing values?", options: ["Ignore them", "dropna() or fillna()", "Delete column", "Convert to 0"], answer: 1 },
+      { question: "What does groupby() do?", options: ["Sort data", "Split-apply-combine", "Merge tables", "Create pivot"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Difference between loc and iloc in Pandas?", a: "loc: label-based indexing using row/column names. df.loc[0:2] includes row 2 (inclusive). iloc: integer position-based. df.iloc[0:2] excludes row 2 (exclusive). loc for named indices/columns, iloc for numeric positions. loc can use boolean arrays, iloc cannot. Use loc when working with named indices, iloc for purely positional access." },
+      { q: "How to optimize memory usage in Pandas?", a: "Strategies: 1) Use appropriate dtypes (category for strings with few unique values, int8/16 instead of int64). 2) Read specific columns with usecols. 3) Use chunking for large files (chunksize parameter). 4) Convert object to category with astype('category'). 5) Use pd.to_numeric() with downcast. 6) Use iterrows() sparingly (vectorize instead). 7) del or drop unused columns. Check memory: df.memory_usage(), df.info(memory_usage='deep')." }
+    ]
+  },
+
+  // ============ PYTHON TESTING & DEBUGGING ============
+  {
+    id: 57,
+    language: "python",
+    module: "Python Testing & Debugging",
+    title: "Unit Testing with pytest",
+    difficulty: "intermediate",
+    description: "Write effective tests with pytest: fixtures, parametrization, mocking, and test coverage.",
+    videoId: "bbp_849-RZ4",
+    videoTitle: "pytest Tutorial - Unit Testing in Python",
+    content: `pytest is the most popular testing framework for Python. It's simple, scalable, and feature-rich.
+
+**Why pytest?**
+- Simple assert statements (no self.assertEqual)
+- Auto-discovery of tests
+- Powerful fixtures for setup/teardown
+- Parametrized tests
+- Rich plugin ecosystem
+- Better output and error messages
+
+**Installation**
+\`\`\`bash
+pip install pytest pytest-cov
+\`\`\`
+
+**Test Discovery**
+pytest automatically finds:
+- Files named test_*.py or *_test.py
+- Functions/methods starting with test_
+- Classes starting with Test
+
+**Best Practices**
+- One assertion per test (generally)
+- Descriptive test names
+- Arrange-Act-Assert pattern
+- Use fixtures for setup
+- Mock external dependencies
+- Aim for 80%+ coverage`,
+    codeExamples: [
+      {
+        title: "Basic Tests and Assertions",
+        code: `# calculator.py
+def add(a, b):
+    return a + b
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+def is_even(n):
+    return n % 2 == 0
+
+# test_calculator.py
+import pytest
+from calculator import add, divide, is_even
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+    assert add(0, 0) == 0
+
+def test_add_floats():
+    result = add(0.1, 0.2)
+    assert pytest.approx(result) == 0.3  # Handle float precision
+
+def test_divide():
+    assert divide(10, 2) == 5
+    assert divide(9, 3) == 3
+
+def test_divide_by_zero():
+    with pytest.raises(ValueError, match="Cannot divide by zero"):
+        divide(10, 0)
+
+def test_is_even():
+    assert is_even(2) is True
+    assert is_even(3) is False
+    assert is_even(0) is True
+
+# Run tests:
+# pytest                    # Run all tests
+# pytest test_calculator.py # Run specific file
+# pytest -v                 # Verbose output
+# pytest -k "divide"        # Run tests matching pattern`,
+        explanation: "Use assert for all checks. pytest.approx() for floating point. pytest.raises() for exceptions. match parameter for error message regex."
+      },
+      {
+        title: "Fixtures and Setup/Teardown",
+        code: `# test_database.py
+import pytest
+
+# Simple fixture
+@pytest.fixture
+def sample_data():
+    return [1, 2, 3, 4, 5]
+
+def test_sum(sample_data):
+    assert sum(sample_data) == 15
+
+def test_len(sample_data):
+    assert len(sample_data) == 5
+
+# Fixture with setup/teardown
+@pytest.fixture
+def database_connection():
+    # Setup
+    conn = create_connection()
+    conn.execute("CREATE TABLE users (id INT, name TEXT)")
+    
+    yield conn  # Provide to test
+    
+    # Teardown (runs after test)
+    conn.execute("DROP TABLE users")
+    conn.close()
+
+def test_insert_user(database_connection):
+    db = database_connection
+    db.execute("INSERT INTO users VALUES (1, 'Alice')")
+    result = db.execute("SELECT * FROM users").fetchone()
+    assert result == (1, 'Alice')
+
+# Fixture scope
+@pytest.fixture(scope="module")  # Runs once per module
+def expensive_resource():
+    resource = ExpensiveObject()
+    yield resource
+    resource.cleanup()
+
+# Fixture using other fixtures
+@pytest.fixture
+def user(database_connection):
+    db = database_connection
+    db.execute("INSERT INTO users VALUES (1, 'Bob')")
+    return {'id': 1, 'name': 'Bob'}
+
+# Auto-use fixture (runs for every test)
+@pytest.fixture(autouse=True)
+def reset_state():
+    global counter
+    counter = 0`,
+        explanation: "Fixtures provide reusable setup. yield separates setup/teardown. Scope controls fixture lifetime: function (default), class, module, session. autouse runs automatically."
+      },
+      {
+        title: "Parametrized Tests and Markers",
+        code: `# test_parametrize.py
+import pytest
+
+# Parametrized test - run with multiple inputs
+@pytest.mark.parametrize("input,expected", [
+    (2, True),
+    (3, False),
+    (4, True),
+    (0, True),
+    (-2, True),
+])
+def test_is_even_parametrized(input, expected):
+    from calculator import is_even
+    assert is_even(input) == expected
+
+# Multiple parameters
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (0, 0, 0),
+    (-1, 1, 0),
+    (100, 200, 300),
+])
+def test_add_parametrized(a, b, expected):
+    from calculator import add
+    assert add(a, b) == expected
+
+# Markers
+@pytest.mark.slow
+def test_slow_operation():
+    import time
+    time.sleep(2)
+    assert True
+
+@pytest.mark.skip(reason="Feature not implemented yet")
+def test_future_feature():
+    assert False
+
+@pytest.mark.skipif(sys.version_info < (3, 9), reason="Requires Python 3.9+")
+def test_modern_feature():
+    assert True
+
+@pytest.mark.xfail(reason="Known bug #123")
+def test_known_bug():
+    assert False  # Expected to fail
+
+# Custom markers (define in pytest.ini)
+@pytest.mark.integration
+def test_api_integration():
+    pass
+
+# Run specific markers:
+# pytest -m slow           # Run only slow tests
+# pytest -m "not slow"     # Skip slow tests
+# pytest -m "integration"  # Run integration tests`,
+        explanation: "parametrize runs test with multiple inputs. Markers categorize tests: skip, skipif, xfail for expected failures, slow, integration. Run subsets with -m flag."
+      },
+      {
+        title: "Mocking and Test Doubles",
+        code: `# users.py
+import requests
+
+def get_user(user_id):
+    response = requests.get(f'https://api.example.com/users/{user_id}')
+    return response.json()
+
+def send_email(to, subject, body):
+    # Actual email sending logic
+    smtp.send(to, subject, body)
+    return True
+
+# test_users.py
+import pytest
+from unittest.mock import Mock, patch, MagicMock
+from users import get_user, send_email
+
+def test_get_user_with_mock():
+    # Mock the requests.get function
+    with patch('users.requests.get') as mock_get:
+        # Setup mock response
+        mock_response = Mock()
+        mock_response.json.return_value = {'id': 1, 'name': 'Alice'}
+        mock_get.return_value = mock_response
+        
+        # Call function
+        result = get_user(1)
+        
+        # Assertions
+        assert result == {'id': 1, 'name': 'Alice'}
+        mock_get.assert_called_once_with('https://api.example.com/users/1')
+
+def test_send_email():
+    with patch('users.smtp.send') as mock_send:
+        mock_send.return_value = True
+        
+        result = send_email('test@example.com', 'Hi', 'Body')
+        
+        assert result is True
+        mock_send.assert_called_once_with('test@example.com', 'Hi', 'Body')
+
+# Pytest monkeypatch fixture
+def test_with_monkeypatch(monkeypatch):
+    def mock_get(*args, **kwargs):
+        mock_resp = Mock()
+        mock_resp.json.return_value = {'id': 2, 'name': 'Bob'}
+        return mock_resp
+    
+    monkeypatch.setattr('users.requests.get', mock_get)
+    result = get_user(2)
+    assert result['name'] == 'Bob'
+
+# Mock class
+class MockDatabase:
+    def __init__(self):
+        self.data = {}
+    
+    def save(self, key, value):
+        self.data[key] = value
+        return True
+    
+    def get(self, key):
+        return self.data.get(key)
+
+@pytest.fixture
+def mock_db():
+    return MockDatabase()
+
+def test_with_mock_db(mock_db):
+    mock_db.save('user:1', {'name': 'Alice'})
+    user = mock_db.get('user:1')
+    assert user['name'] == 'Alice'`,
+        explanation: "patch() mocks imports. Mock() creates test doubles. return_value sets mock response. assert_called_once_with() verifies calls. monkeypatch fixture for attribute replacement."
+      },
+      {
+        title: "Test Coverage and Best Practices",
+        code: `# Run tests with coverage
+# pytest --cov=myapp --cov-report=html
+# pytest --cov=myapp --cov-report=term-missing
+
+# conftest.py - shared fixtures across tests
+import pytest
+
+@pytest.fixture(scope="session")
+def app_config():
+    return {
+        'DATABASE_URL': 'sqlite:///:memory:',
+        'DEBUG': True
+    }
+
+@pytest.fixture
+def client(app_config):
+    from myapp import create_app
+    app = create_app(app_config)
+    return app.test_client()
+
+# test_api.py
+def test_homepage(client):
+    response = client.get('/')
+    assert response.status_code == 200
+    assert b'Welcome' in response.data
+
+def test_create_user(client):
+    response = client.post('/users', json={
+        'name': 'Alice',
+        'email': 'alice@example.com'
+    })
+    assert response.status_code == 201
+    data = response.get_json()
+    assert data['name'] == 'Alice'
+
+# pytest.ini - configuration
+[tool:pytest]
+testpaths = tests
+python_files = test_*.py
+python_functions = test_*
+markers =
+    slow: marks tests as slow
+    integration: integration tests
+    unit: unit tests
+addopts = -v --strict-markers --cov=myapp
+
+# Organize tests
+# tests/
+#   conftest.py
+#   unit/
+#     test_models.py
+#     test_utils.py
+#   integration/
+#     test_api.py
+#     test_database.py
+
+# Best practices
+# 1. AAA pattern: Arrange, Act, Assert
+def test_example():
+    # Arrange
+    calculator = Calculator()
+    
+    # Act
+    result = calculator.add(2, 3)
+    
+    # Assert
+    assert result == 5
+
+# 2. Test one thing
+# BAD
+def test_everything():
+    assert add(1, 2) == 3
+    assert divide(6, 2) == 3
+    assert multiply(2, 3) == 6
+
+# GOOD - separate tests
+def test_add():
+    assert add(1, 2) == 3
+
+def test_divide():
+    assert divide(6, 2) == 3
+
+# 3. Descriptive names
+def test_divide_by_zero_raises_value_error():
+    with pytest.raises(ValueError):
+        divide(10, 0)`,
+        explanation: "pytest --cov for coverage reports. conftest.py for shared fixtures. pytest.ini for configuration. AAA pattern for clarity. One assertion per test when possible."
+      }
+    ],
+    quiz: [
+      { question: "What is pytest?", options: ["Database", "Testing framework", "Web server", "Linter"], answer: 1 },
+      { question: "How to test exceptions?", options: ["try/except", "pytest.raises()", "assert raises", "catch()"], answer: 1 },
+      { question: "What are fixtures?", options: ["Test data", "Setup/teardown helpers", "Assertions", "Mocks"], answer: 1 },
+      { question: "What does @pytest.mark.parametrize do?", options: ["Skip tests", "Run test with multiple inputs", "Mock functions", "Set timeout"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "What is the difference between unit tests and integration tests?", a: "Unit tests: test individual functions/methods in isolation, use mocks for dependencies, fast, run frequently. Integration tests: test interaction between components (API + database, multiple services), use real or test databases, slower, run less frequently. Both are important: unit tests for quick feedback and regression, integration tests for end-to-end validation." },
+      { q: "When should you use mocking in tests?", a: "Use mocks for: 1) External dependencies (APIs, databases, file systems). 2) Slow operations (network calls, heavy computation). 3) Non-deterministic behavior (random, time, external state). 4) Testing error conditions hard to reproduce. Don't mock: simple pure functions, core business logic, trivial operations. Over-mocking makes tests brittle and less valuable." }
+    ]
+  },
+
+  // ============ PYTHON ASYNC & CONCURRENCY ============
+  {
+    id: 58,
+    language: "python",
+    module: "Python Async & Concurrency",
+    title: "Async/Await and asyncio",
+    difficulty: "advanced",
+    description: "Asynchronous programming with async/await, event loops, tasks, and concurrent I/O operations.",
+    videoId: "t5Bo1Je9EmE",
+    videoTitle: "Python Asyncio Tutorial",
+    content: `Asynchronous programming allows handling multiple tasks concurrently without blocking.
+
+**Why Async?**
+- I/O-bound operations (network, files, databases)
+- Handle thousands of connections efficiently
+- Better resource utilization
+- Non-blocking operations
+
+**Core Concepts**
+- **Coroutines**: Functions defined with async def
+- **Event Loop**: Manages async task execution
+- **await**: Pause coroutine until result ready
+- **Tasks**: Scheduled coroutines
+- **Futures**: Represent eventual results
+
+**When to Use Async**
+✅ I/O-bound: web requests, database queries, file I/O
+❌ CPU-bound: use multiprocessing instead
+✅ Many concurrent operations
+❌ Simple scripts with few I/O operations
+
+**Installation**
+asyncio is built-in, but useful libraries:
+\`\`\`bash
+pip install aiohttp aiofiles asyncpg
+\`\`\``,
+    codeExamples: [
+      {
+        title: "Async Basics - Coroutines and await",
+        code: `import asyncio
+import time
+
+# Synchronous version - SLOW
+def fetch_data_sync(n):
+    print(f"Fetching data {n}...")
+    time.sleep(2)  # Simulates network delay
+    print(f"Data {n} received")
+    return f"Data {n}"
+
+def main_sync():
+    start = time.time()
+    fetch_data_sync(1)
+    fetch_data_sync(2)
+    fetch_data_sync(3)
+    print(f"Sync took: {time.time() - start:.2f}s")  # ~6 seconds
+
+# Asynchronous version - FAST
+async def fetch_data_async(n):
+    print(f"Fetching data {n}...")
+    await asyncio.sleep(2)  # Non-blocking sleep
+    print(f"Data {n} received")
+    return f"Data {n}"
+
+async def main_async():
+    start = time.time()
+    # Run concurrently
+    await asyncio.gather(
+        fetch_data_async(1),
+        fetch_data_async(2),
+        fetch_data_async(3)
+    )
+    print(f"Async took: {time.time() - start:.2f}s")  # ~2 seconds
+
+# Run async function
+asyncio.run(main_async())
+
+# Alternative: create tasks
+async def main_with_tasks():
+    task1 = asyncio.create_task(fetch_data_async(1))
+    task2 = asyncio.create_task(fetch_data_async(2))
+    task3 = asyncio.create_task(fetch_data_async(3))
+    
+    # Wait for all tasks
+    results = await asyncio.gather(task1, task2, task3)
+    print(results)  # ['Data 1', 'Data 2', 'Data 3']`,
+        explanation: "async def creates coroutine. await pauses until result ready. asyncio.gather() runs multiple coroutines concurrently. asyncio.run() is entry point."
+      },
+      {
+        title: "Async HTTP Requests with aiohttp",
+        code: `import asyncio
+import aiohttp
+import time
+
+# Sync version with requests
+import requests
+
+def fetch_url_sync(url):
+    response = requests.get(url)
+    return response.json()
+
+def main_sync():
+    urls = [
+        'https://api.github.com/users/python',
+        'https://api.github.com/users/django',
+        'https://api.github.com/users/flask'
+    ]
+    start = time.time()
+    for url in urls:
+        data = fetch_url_sync(url)
+        print(f"Got {data['login']}")
+    print(f"Sync: {time.time() - start:.2f}s")
+
+# Async version with aiohttp
+async def fetch_url_async(session, url):
+    async with session.get(url) as response:
+        data = await response.json()
+        return data
+
+async def main_async():
+    urls = [
+        'https://api.github.com/users/python',
+        'https://api.github.com/users/django',
+        'https://api.github.com/users/flask'
+    ]
+    start = time.time()
+    
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_url_async(session, url) for url in urls]
+        results = await asyncio.gather(*tasks)
+        
+        for data in results:
+            print(f"Got {data['login']}")
+    
+    print(f"Async: {time.time() - start:.2f}s")
+
+asyncio.run(main_async())
+
+# Error handling
+async def fetch_with_error_handling(session, url):
+    try:
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=5)) as response:
+            if response.status == 200:
+                return await response.json()
+            else:
+                return {'error': f'Status {response.status}'}
+    except asyncio.TimeoutError:
+        return {'error': 'Timeout'}
+    except aiohttp.ClientError as e:
+        return {'error': str(e)}`,
+        explanation: "aiohttp for async HTTP. ClientSession manages connections. async with for context manager. await response.json() for parsing. Much faster for multiple requests."
+      },
+      {
+        title: "Async Database Operations",
+        code: `import asyncio
+import asyncpg  # PostgreSQL async driver
+
+async def create_pool():
+    return await asyncpg.create_pool(
+        user='user',
+        password='password',
+        database='mydb',
+        host='localhost'
+    )
+
+async def fetch_users(pool):
+    async with pool.acquire() as conn:
+        rows = await conn.fetch('SELECT id, name, email FROM users')
+        return [dict(row) for row in rows]
+
+async def create_user(pool, name, email):
+    async with pool.acquire() as conn:
+        await conn.execute(
+            'INSERT INTO users (name, email) VALUES ($1, $2)',
+            name, email
+        )
+
+async def get_user(pool, user_id):
+    async with pool.acquire() as conn:
+        row = await conn.fetchrow(
+            'SELECT * FROM users WHERE id = $1',
+            user_id
+        )
+        return dict(row) if row else None
+
+async def main():
+    # Create connection pool
+    pool = await create_pool()
+    
+    try:
+        # Create users concurrently
+        await asyncio.gather(
+            create_user(pool, 'Alice', 'alice@example.com'),
+            create_user(pool, 'Bob', 'bob@example.com'),
+            create_user(pool, 'Charlie', 'charlie@example.com')
+        )
+        
+        # Fetch all users
+        users = await fetch_users(pool)
+        print(f"Users: {users}")
+        
+        # Get specific user
+        user = await get_user(pool, 1)
+        print(f"User 1: {user}")
+        
+    finally:
+        await pool.close()
+
+asyncio.run(main())
+
+# Using transactions
+async def transfer_funds(pool, from_id, to_id, amount):
+    async with pool.acquire() as conn:
+        async with conn.transaction():
+            # Debit from account
+            await conn.execute(
+                'UPDATE accounts SET balance = balance - $1 WHERE id = $2',
+                amount, from_id
+            )
+            # Credit to account
+            await conn.execute(
+                'UPDATE accounts SET balance = balance + $1 WHERE id = $2',
+                amount, to_id
+            )`,
+        explanation: "asyncpg for async PostgreSQL. Connection pooling for efficiency. acquire() gets connection from pool. Transactions ensure atomicity."
+      },
+      {
+        title: "Async Patterns and Best Practices",
+        code: `import asyncio
+from asyncio import Queue
+import random
+
+# Pattern 1: Producer-Consumer with Queue
+async def producer(queue, n):
+    for i in range(n):
+        await asyncio.sleep(random.random())
+        item = f"item-{i}"
+        await queue.put(item)
+        print(f"Produced {item}")
+    await queue.put(None)  # Sentinel to stop consumer
+
+async def consumer(queue):
+    while True:
+        item = await queue.get()
+        if item is None:
+            break
+        await asyncio.sleep(random.random())
+        print(f"Consumed {item}")
+        queue.task_done()
+
+async def producer_consumer_pattern():
+    queue = Queue()
+    await asyncio.gather(
+        producer(queue, 10),
+        consumer(queue)
+    )
+
+# Pattern 2: Limiting Concurrency with Semaphore
+async def limited_fetch(url, semaphore, session):
+    async with semaphore:  # Only N concurrent requests
+        print(f"Fetching {url}")
+        async with session.get(url) as response:
+            return await response.text()
+
+async def fetch_with_limit(urls, max_concurrent=5):
+    semaphore = asyncio.Semaphore(max_concurrent)
+    async with aiohttp.ClientSession() as session:
+        tasks = [
+            limited_fetch(url, semaphore, session) 
+            for url in urls
+        ]
+        return await asyncio.gather(*tasks)
+
+# Pattern 3: Timeout
+async def operation_with_timeout():
+    try:
+        result = await asyncio.wait_for(
+            slow_operation(), 
+            timeout=5.0
+        )
+        return result
+    except asyncio.TimeoutError:
+        print("Operation timed out")
+        return None
+
+async def slow_operation():
+    await asyncio.sleep(10)
+    return "Result"
+
+# Pattern 4: Running sync code in async context
+import concurrent.futures
+
+def cpu_bound_task(n):
+    # Heavy computation
+    return sum(i * i for i in range(n))
+
+async def run_cpu_bound():
+    loop = asyncio.get_event_loop()
+    with concurrent.futures.ProcessPoolExecutor() as pool:
+        result = await loop.run_in_executor(
+            pool, 
+            cpu_bound_task, 
+            10_000_000
+        )
+        return result
+
+# Pattern 5: Async context manager
+class AsyncResource:
+    async def __aenter__(self):
+        print("Acquiring resource")
+        await asyncio.sleep(1)
+        return self
+    
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        print("Releasing resource")
+        await asyncio.sleep(1)
+    
+    async def operation(self):
+        print("Using resource")
+        await asyncio.sleep(1)
+
+async def use_async_resource():
+    async with AsyncResource() as resource:
+        await resource.operation()
+
+# Pattern 6: Async generator
+async def async_range(count):
+    for i in range(count):
+        await asyncio.sleep(0.5)
+        yield i
+
+async def consume_async_generator():
+    async for i in async_range(5):
+        print(f"Got {i}")`,
+        explanation: "Queue for producer-consumer. Semaphore limits concurrency. wait_for() adds timeout. run_in_executor() for CPU-bound tasks. async with for async context managers."
+      }
+    ],
+    quiz: [
+      { question: "What is asyncio?", options: ["Database", "Async I/O library", "Web framework", "Testing tool"], answer: 1 },
+      { question: "async def creates?", options: ["Thread", "Process", "Coroutine", "Generator"], answer: 2 },
+      { question: "When to use async?", options: ["CPU-bound tasks", "I/O-bound tasks", "Simple scripts", "Math calculations"], answer: 1 },
+      { question: "What does await do?", options: ["Blocks thread", "Pauses coroutine", "Starts process", "Sleeps forever"], answer: 1 }
+    ],
+    interviewQuestions: [
+      { q: "Explain async/await vs threading vs multiprocessing.", a: "Async/await: Single thread, cooperative multitasking, best for I/O-bound (network, files). No GIL issues, low overhead. Threading: Multiple threads, preemptive multitasking, GIL limits CPU use, for I/O with blocking libraries. Multiprocessing: Multiple processes, true parallelism, for CPU-bound tasks, higher overhead. Choose async for I/O-heavy (web scraping, APIs), multiprocessing for CPU-heavy (data processing, ML), threading for I/O with blocking code." },
+      { q: "What is the event loop and how does it work?", a: "Event loop is core of asyncio. It manages and schedules coroutines, handles I/O events, callbacks. Process: 1) Tasks submitted to loop. 2) Loop runs ready tasks until they await. 3) When awaiting I/O, task yields control. 4) Loop switches to other ready tasks. 5) When I/O completes, callback resumes task. Single-threaded but appears concurrent. get_event_loop() accesses it, asyncio.run() creates and manages loop." }
     ]
   }
 ];

@@ -139,6 +139,99 @@ const topicVideos = {
     { id: "Ruq4sEw9h_8", title: "setInterval and setTimeout in JavaScript | JavaScript Tutorial in Hindi #46" },
     { id: "vFJbKR6zfCE", title: "Event Loop in JavaScript | JavaScript Tutorial in Hindi #100" },
   ],
+  // Python topics
+  29: [
+    { id: "gfDE2a7MKjA", title: "Introduction to Python | Python Tutorial" },
+    { id: "C2AekaOlRcM", title: "Python for Beginners | Complete Course" }
+  ],
+  30: [
+    { id: "7NULLPQdVXk", title: "Variables and Data Types in Python" },
+    { id: "qpU3WIqRz9I", title: "Python Data Types Explained" }
+  ],
+  31: [
+    { id: "Yafji9PB1lM", title: "Strings in Python | String Methods" },
+    { id: "8yg4RUEnaIk", title: "Python String Manipulation" }
+  ],
+  32: [
+    { id: "a_Bz5ciBHQ0", title: "Lists in Python | Python Tutorial" },
+    { id: "BLIrBThPTXc", title: "Python List Methods" }
+  ],
+  33: [
+    { id: "daefaLgNkw0", title: "Dictionaries in Python" },
+    { id: "qpU3WIqRz9I", title: "Python Dict Operations" }
+  ],
+  34: [
+    { id: "s5Lu4QTjeL0", title: "Control Flow in Python | if elif else" },
+    { id: "W77qmqrhCcA", title: "Python Conditionals" }
+  ],
+  35: [
+    { id: "XKyyM1VWtUE", title: "Loops in Python | for while" },
+    { id: "drEjyBSu33w", title: "Python Loop Patterns" }
+  ],
+  36: [
+    { id: "a_gwOwkbhZ0", title: "Functions in Python" },
+    { id: "bJKjtC9MnZ8", title: "Python Function Arguments" }
+  ],
+  37: [
+    { id: "bAUMuuRH99o", title: "List Comprehensions in Python" },
+    { id: "QxA-KB2lKgk", title: "Python Generator Expressions" }
+  ],
+  38: [
+    { id: "C2AekaOlRcM", title: "File Handling in Python" },
+    { id: "A98SPz5XLwY", title: "Reading and Writing Files" }
+  ],
+  39: [
+    { id: "WRNBQCl_cPU", title: "Exception Handling in Python | try except" },
+    { id: "uOQBGKfldIg", title: "Python Error Handling" }
+  ],
+  40: [
+    { id: "wCkHbaLG5cw", title: "Modules in Python" },
+    { id: "fe6L8bNC_Yw", title: "Python Packages" }
+  ],
+  41: [
+    { id: "7RpdfkSyJfU", title: "Classes and Objects in Python" },
+    { id: "0E2akQ5E-5Y", title: "Python OOP Basics" }
+  ],
+  42: [
+    { id: "9loYq8W8rsg", title: "Inheritance in Python" },
+    { id: "__l6ZOPaijs", title: "Python Polymorphism" }
+  ],
+  43: [
+    { id: "oR0yIjzfxQw", title: "Decorators in Python" },
+    { id: "Ze-JGb4I9zU", title: "Python Decorator Patterns" }
+  ],
+  44: [
+    { id: "bJKjtC9MnZ8", title: "Lambda Functions in Python" },
+    { id: "bAUMuuRH99o", title: "Python map filter reduce" }
+  ],
+  45: [
+    { id: "C2AekaOlRcM", title: "Type Hints in Python" },
+    { id: "fe6L8bNC_Yw", title: "Python Type Annotations" }
+  ],
+  46: [
+    { id: "C2AekaOlRcM", title: "Python Project - Calculator" },
+    { id: "gfDE2a7MKjA", title: "Build CLI Apps with Python" }
+  ],
+  47: [
+    { id: "C2AekaOlRcM", title: "Python Project - File Organizer" },
+    { id: "A98SPz5XLwY", title: "Python File Management" }
+  ],
+  48: [
+    { id: "C2AekaOlRcM", title: "Python Web Scraping with BeautifulSoup" },
+    { id: "gfDE2a7MKjA", title: "BeautifulSoup Tutorial" }
+  ],
+  49: [
+    { id: "C2AekaOlRcM", title: "Python Interview Questions - Core Concepts" },
+    { id: "gfDE2a7MKjA", title: "Python Interview Prep" }
+  ],
+  50: [
+    { id: "C2AekaOlRcM", title: "Python OOP Interview Questions" },
+    { id: "7RpdfkSyJfU", title: "Design Patterns in Python" }
+  ],
+  51: [
+    { id: "C2AekaOlRcM", title: "Python DSA Interview Questions" },
+    { id: "gfDE2a7MKjA", title: "Data Structures in Python" }
+  ]
 };
 
 export default topicVideos;

@@ -55,9 +55,9 @@ export default function Dashboard() {
           Welcome back, <span style={{ color: 'var(--accent)' }}>{user?.name || 'Learner'}</span>
         </h1>
         <p style={{ color: 'var(--text-secondary)', maxWidth: '600px', lineHeight: '1.6' }}>
-          {percent === 0 && "Ready to start your JavaScript journey? Begin with the basics and work your way up to advanced topics."}
+          {percent === 0 && "Ready to start your coding journey? Begin with JavaScript or Python basics and work your way up to advanced topics."}
           {percent > 0 && percent < 50 && `You're making great progress! ${totalTopics - completedCount} topics remaining. Keep going!`}
-          {percent >= 50 && percent < 100 && `Over halfway there! You're becoming a JavaScript pro. ${totalTopics - completedCount} topics to go.`}
+          {percent >= 50 && percent < 100 && `Over halfway there! You're becoming a coding pro. ${totalTopics - completedCount} topics to go.`}
           {percent === 100 && "Congratulations! You've completed all topics. Consider revisiting for mastery or try the mock interviews!"}
         </p>
         {nextTopic && (

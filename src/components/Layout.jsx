@@ -24,7 +24,12 @@ export default function Layout({ children }) {
   const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [expandedModule, setExpandedModule] = useState(null);
+  const [selectedLanguage, setSelectedLanguage] = useState('javascript');
 
+  // Filter curriculum by language
+  const filteredCurriculum = curriculum.filter(t => t.language === selectedLanguage);
+  const filteredModules = [...new Set(filteredCurriculum.map(t => t.module))];
+  
   const completionPercent = Math.round((progress.completedTopics.length / curriculum.length) * 100);
 
   return (
@@ -56,20 +61,20 @@ export default function Layout({ children }) {
           <div style={{
             width: '36px',
             height: '36px',
-            background: 'linear-gradient(135deg, var(--accent), #f97316)',
+            background: 'linear-gradient(135deg, var(--accent), #3b82f6)',
             borderRadius: '10px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            fontSize: '0.9rem',
+            fontSize: '0.7rem',
             fontWeight: '800',
             color: 'var(--bg-primary)',
             fontFamily: 'var(--font-mono)',
             flexShrink: 0,
-          }}>JS</div>
+          }}>{ }</div>
           <div>
-            <div style={{ fontSize: '1rem', fontWeight: '700', color: 'var(--text-heading)', lineHeight: 1.2 }}>Mastery Hub</div>
-            <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>Zero to Hero</div>
+            <div style={{ fontSize: '1rem', fontWeight: '700', color: 'var(--text-heading)', lineHeight: 1.2 }}>Code Mastery Hub</div>
+            <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>JS & Python • Zero to Hero</div>
           </div>
         </div>
 
@@ -133,6 +138,59 @@ export default function Layout({ children }) {
             );
           })}
 
+          {/* Language Tabs */}
+          <div style={{
+            margin: '16px 0 8px',
+            padding: '0 14px',
+            fontSize: '0.65rem',
+            textTransform: 'uppercase',
+            letterSpacing: '0.1em',
+            color: 'var(--text-muted)',
+            fontWeight: '600',
+          }}>Learning Paths</div>
+
+          <div style={{
+            display: 'flex',
+            gap: '6px',
+            padding: '0 14px',
+            marginBottom: '12px',
+          }}>
+            <button
+              onClick={() => setSelectedLanguage('javascript')}
+              style={{
+                flex: 1,
+                padding: '8px 12px',
+                background: selectedLanguage === 'javascript' ? 'var(--accent)' : 'var(--bg-card)',
+                color: selectedLanguage === 'javascript' ? 'var(--bg-primary)' : 'var(--text-secondary)',
+                border: '1px solid ' + (selectedLanguage === 'javascript' ? 'var(--accent)' : 'var(--border)'),
+                borderRadius: 'var(--radius-sm)',
+                fontSize: '0.75rem',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+              }}
+            >
+              JavaScript
+            </button>
+            <button
+              onClick={() => setSelectedLanguage('python')}
+              style={{
+                flex: 1,
+                padding: '8px 12px',
+                background: selectedLanguage === 'python' ? '#3b82f6' : 'var(--bg-card)',
+                color: selectedLanguage === 'python' ? '#fff' : 'var(--text-secondary)',
+                border: '1px solid ' + (selectedLanguage === 'python' ? '#3b82f6' : 'var(--border)'),
+                borderRadius: 'var(--radius-sm)',
+                fontSize: '0.75rem',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+              }}
+            >
+              Python
+            </button>
+          </div>
+
           <div style={{
             margin: '16px 0 8px',
             padding: '0 14px',
@@ -143,8 +201,8 @@ export default function Layout({ children }) {
             fontWeight: '600',
           }}>Curriculum</div>
 
-          {modules.map(mod => {
-            const topics = curriculum.filter(t => t.module === mod);
+          {filteredModules.map(mod => {
+            const topics = filteredCurriculum.filter(t => t.module === mod);
             const completed = topics.filter(t => progress.completedTopics.includes(t.id)).length;
             const isExpanded = expandedModule === mod;
 
@@ -280,7 +338,7 @@ export default function Layout({ children }) {
             >{sidebarOpen ? '<' : '>'}</button>
             <div>
               <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-                JavaScript Mastery Hub
+                Code Mastery Hub
               </div>
             </div>
           </div>
